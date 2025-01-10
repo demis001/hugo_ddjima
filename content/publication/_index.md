@@ -1,6 +1,11 @@
 ---
-title: Publications
+title: Recent Publications
+type: publication
+#layout: full-publication-list
 cms_exclude: true
+filters:
+    featured: true
+    exclude_featured: false
 
 # View.
 view: citation

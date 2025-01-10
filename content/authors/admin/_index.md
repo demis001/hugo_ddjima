@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Dereje D. Jima
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Dereje Jima
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Dereje
+last_name: Jima
 
 # Status emoji
 status:
@@ -20,12 +20,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Senior Research Scholar
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: North Carolina State Unversity
+    url: https://ncsu.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -47,65 +47,99 @@ profiles:
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Large genomic data analysis and integration
+  - Computational Biology
+  - AI, Deep Learning and LLM
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: MSc Bioinformatics
+    institution: Wageningen University
+    date_start: 2005-06-01
+    date_end: 2003-08-15
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on Innete Immunity
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: 'University URL '
+      url: 'https://www.wur.nl/en/education-programmes/wageningen-university.htm'
+  - area: BSc
+    institution: Haramaya University
+    date_start: 2000-07-30
+    date_end: 1996-08-15
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Senior Research Scholar
+    company_name: NCSU
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2023-11-01
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Collaborate with CHHE members to conduct interdisciplinary research
+      - Serve as Boiinformatics liaison for CHHE
+  - position: Research Scholar
+    company_name: NCSU
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2015-09-15
+    date_end: 2023-11-01
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Collaborate with CHHE members to conduct interdisciplinary research
+      - Serve as Boiinformatics liaison for CHHE
+  - position: Senior Research Scholar
+    company_name: CNTS, Walter Reed Army Institute of Research
+    company_url: ''
+    company_logo: ''
+    date_start: 2014-06-15
+    date_end:  2015-09-15
+    summary: |
+        Responsibilities include:
+        -  Infectious diseases
+        -  Software application development (Python, R, Bioconductor)
+        -  Bioinformatics data analysis
+        -  Data integration and project management
+  - position: Bioinformatician I
+    company_name: Duke University
+    company_url: ''
+    campany_logo: ''
+    date_start: 2007-03-15
+    date_end: 2014-06-15
+    summary: |
+      Responsibilities include:
+      - Cancer Genomics
+      - B-Cell Biology
+      - Next Generation Sequencing
+      - Whole Genome SNP 
+      - Design, develop and implement analysis framework and statistical support for multiple projects
+  -  position: Research Associate
+     company_name: NCSU
+     company_url: ''
+     company_logo: ''
+     date_start: 2005-09-15
+     date_end: 2007-03-15
+     summary: | 
+      Responsibilities include:
+      - Served as staff researcher conducting studies of Natural Killer Cells
+      - Developed and implemented independent research
+      - Analyzed expression microarray data and conducted molecular biology wet lab work to answer specific biological question
+  - postion: Visiting Research Scholar
+    company_name: Nobel Research Center, Oklahoma State University
+    company_url: ''
+    company_logo: ''
+    date_start: 2005-03-15
+    date_end: 2005-09-15
+    summary: |
+      Responsibilities include: 
+      - Database integration and parsing
+  - position: Assistant Lecturer
+    company_name: Ambo University, Ambo, Ethiopia
+    company_url: ''
+    company_logo: ''
+    date_start: 2000-12-16
+    date_end: 2003-08-15
+    summary: |
+        Responsibilities include:
+        - Teaching and conducting independent research
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -120,6 +154,10 @@ skills:
         description: ''
         percent: 100
         icon: chart-bar
+      - name: R
+        description: 'Use daily to analyze diverse genomic data'
+        percent: 100
+        icon: chart-bar
       - name: SQL
         description: ''
         percent: 40
@@ -128,59 +166,51 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Running
         description: ''
-        percent: 60
+        percent: 100
         icon: person-simple-walk
-      - name: Cats
+      - name: Playing Chase
         description: ''
         percent: 100
         icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
 
 languages:
   - name: English
     percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+  - name: Afaan Oromo
+    percent: 100
+  - name: Amharic
+    percent: 100
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
+  - title: Center for Human Health and the Environment Outstanding Member Award
+    url: https://chhe.research.ncsu.edu/
+    date: '2019-11-25'
+    awarder: CHHE, North Carolina State Unvirsity
+    icon: NCSU
+  - title: Scholarship for Master’s study
     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+    date: '2003-08-01'
+    awarder: Netherland Fellowship Program
+    icon: NFP
     summary: |
       Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
+      - Studied MSc in Bioinformatics
+  - title: 'Degree with distinction for graduation with a high four years cumulative grade point average'
+    url: https://www.haramaya.edu.et/
+    certificate_url: ''
+    date: '2000-06-21'
+    awarder: Haramaya University
     icon: datacamp
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Graduated BSc in distinction
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Dereje Jima is a Senior Bioinformatics Research Scholar at North Carolina State University. His research focuses on genomics, epigenetics, toxicology, and environmental health. He serves as the Bioinformatics Liaison at the Center for Human Health and the Environment, fostering collaborations with over 50 scientists engaged in groundbreaking research on the intersection of human health and environmental science.

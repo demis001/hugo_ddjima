@@ -11,11 +11,11 @@ appearance:
 # SEO
 marketing:
   seo:
-    site_type: Person
+    site_type: Personal
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Dereje Jima Personal Website.'
+    twitter: 'ddjima'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -31,30 +31,47 @@ header:
   navbar:
     enable: true
     blox: "navbar"
+    align: c
+    show_logo: true
+    show_translations: true
+    highlight_active_link: true
     fixed_to_top: true
     show_search: true
     show_theme_chooser: true
+    show_day_night: true
     logo:
-      text: "Your Name"
-
+      text: "Dereje Jima"
+      logo_path: "media/logo.png"
 # Site footer
 footer:
+  block: minimal
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+    notice: '© {year} Dereje Jima'
+  license:
+    enable: false
+    allow_derivatives: false
+    share_alike: true
+    allow_commercial: false
+  credit:
+    enable: false
 
 # Localization
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: 'Dec 31, 2024'
+  time_format: '1:44 AM'
 
-# Site features
-features:
-  math:
+# Site features:
+  math:  
     enable: false
-  privacy_pack:
-    enable: false
+  privacy_pack:  
+    enable: true 
+
+# Custom CSS
+css:             
+  - /css/custom.css
+
+# Power-ups
+power_ups:
+  hide_published_with: true
+  i_am_a_sponsor: true
+

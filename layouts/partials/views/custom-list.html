@@ -1,0 +1,16 @@
+<ol>
+  {{ range .Pages }}
+    <li>
+      <strong>{{ .Title }}</strong>
+      <br>
+      <i>{{ .Params.authors | delimit ", " }}</i>
+      <br>
+      {{ if .Params.publication }}<em>{{ .Params.publication }}</em>{{ end }}
+      <br>
+      <small>{{ .Date | dateFormat "January 2, 2006" }}</small>
+    </li>
+  {{ else }}
+    <li>No publications found.</li>
+  {{ end }}
+</ol>
+

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manuscript | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/publication_types/manuscript/</link>
+      <atom:link href="http://localhost:1313/publication_types/manuscript/index.xml" rel="self" type="application/rss+xml" />
+    <description>Manuscript</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/logo_hu4113184077352562439.png</url>
+      <title>Manuscript</title>
+      <link>http://localhost:1313/publication_types/manuscript/</link>
+    </image>
+    
+    <item>
+      <title>Compositions and methods related to differentially methylated dna sequences associated with monoallelic gene expression and disease</title>
+      <link>http://localhost:1313/full_publication/hoyo-2022-compositions/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/full_publication/hoyo-2022-compositions/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Compositions and methods related to differentially methylated dna sequences associated with monoallelic gene expression and disease</title>
+      <link>http://localhost:1313/publication/hoyo-2022-compositions/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/hoyo-2022-compositions/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chemical genomics reveals JAK STAT activation as a mechanism of resistance to HDAC inhibitors in B cell lymphomas</title>
+      <link>http://localhost:1313/full_publication/mckinney-2014-chemical/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/full_publication/mckinney-2014-chemical/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Chemical genomics reveals JAK STAT activation as a mechanism of resistance to HDAC inhibitors in B cell lymphomas</title>
+      <link>http://localhost:1313/publication/mckinney-2014-chemical/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/mckinney-2014-chemical/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Strand-specific total RNA sequencing establishes the complete transcriptome and alternative splicing repertoire in diffuse large B cell lymphoma</title>
+      <link>http://localhost:1313/full_publication/greenough-2014-strand/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/full_publication/greenough-2014-strand/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Strand-specific total RNA sequencing establishes the complete transcriptome and alternative splicing repertoire in diffuse large B cell lymphoma</title>
+      <link>http://localhost:1313/publication/greenough-2014-strand/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/greenough-2014-strand/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using High-Throughput Sequencing of Red Blood Cells and Platelets to Identify Micrornas Associated with Hematopoiesis.</title>
+      <link>http://localhost:1313/full_publication/doss-2012-using/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/full_publication/doss-2012-using/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using High-Throughput Sequencing of Red Blood Cells and Platelets to Identify Micrornas Associated with Hematopoiesis.</title>
+      <link>http://localhost:1313/publication/doss-2012-using/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/doss-2012-using/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Identification of MicroRNAs Associated with Erythropoiesis Through Deep Sequencing of Red Blood Cells</title>
+      <link>http://localhost:1313/full_publication/doss-2011-identification/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/full_publication/doss-2011-identification/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Identification of MicroRNAs Associated with Erythropoiesis Through Deep Sequencing of Red Blood Cells</title>
+      <link>http://localhost:1313/publication/doss-2011-identification/</link>
+      <pubDate>Sat, 01 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/doss-2011-identification/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Comprehensive Identification of the Microrna Transcriptome and Its Application in B Cell Malignancies.</title>
+      <link>http://localhost:1313/full_publication/jacobs-2009-comprehensive/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/full_publication/jacobs-2009-comprehensive/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Comprehensive Identification of the Microrna Transcriptome and Its Application in B Cell Malignancies.</title>
+      <link>http://localhost:1313/publication/jacobs-2009-comprehensive/</link>
+      <pubDate>Thu, 01 Jan 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/jacobs-2009-comprehensive/</guid>
+      <description>&lt;p&gt;Add the &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; for the publication here using Markdown formatting.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
