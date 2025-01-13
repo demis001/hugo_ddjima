@@ -38,13 +38,13 @@ profiles:
   - icon: brands/instagram
     url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/demis001
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/dereje-jima-5395ab8/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/citations?user=sOPfFGAAAAAJ&hl=en&oi=ao
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0002-7784-1612
 
 interests:
   - Large genomic data analysis and integration
@@ -56,30 +56,32 @@ education:
     institution: Wageningen University
     date_start: 2005-06-01
     date_end: 2003-08-15
-    summary: |
-      Thesis on Innete Immunity
+    logo: '/brands/icons/wur.svg'
     button:
-      text: 'University URL '
-      url: 'https://www.wur.nl/en/education-programmes/wageningen-university.htm'
+      text: 'wur'
+      url: 'https://www.wur.nl/en.htm'
   - area: BSc
     institution: Haramaya University
     date_start: 2000-07-30
     date_end: 1996-08-15
+    button:
+        text: 'Hu-Logo1'
+        url: 'https://www.haramaya.edu.et/'
 work:
   - position: Senior Research Scholar
-    company_name: NCSU
-    company_url: ''
-    company_logo: ''
+    company_name: North Carolina State University
+    company_url: 'https://www.ncsu.edu/'
+    company_logo: 'ncsu'
     date_start: 2023-11-01
     date_end: ''
-    summary: |2-
+    summary: |
       Responsibilities include:
       - Collaborate with CHHE members to conduct interdisciplinary research
       - Serve as Boiinformatics liaison for CHHE
   - position: Research Scholar
-    company_name: NCSU
-    company_url: ''
-    company_logo: ''
+    company_name: North Carolina State University
+    company_url: 'https://www.ncsu.edu/'
+    company_logo: 'ncsu'
     date_start: 2015-09-15
     date_end: 2023-11-01
     summary: |
