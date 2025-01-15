@@ -925,5 +925,8 @@
     <loc>http://localhost:1313/publication/zhang-2008-micrornas/</loc>
     <lastmod>2008-01-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>http://localhost:1313/contact/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>
