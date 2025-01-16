@@ -5,8 +5,8 @@
 
 # Appearance
 appearance:
-  mode: light
-  color: blue
+  mode: system
+  color: emerald
 
 # SEO
 marketing:
@@ -57,15 +57,14 @@ footer:
 
 # Localization
 locale:
-  date_format: 'Dec 31, 2024'
-  time_format: '1:44 AM'
-params:
-  dateFormat: "Jan 2, 2006"
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+  address_format: en-us
 
 
 # Site features:
   math:  
-    enable: false
+    enable: true
   privacy_pack:  
     enable: true 
 
