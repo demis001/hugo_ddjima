@@ -51,6 +51,7 @@ sections:
         featured_only: true
     design:
       view: article-grid
+      show_cite: false
       columns: 2
   - block: collection
     content:
@@ -62,6 +63,7 @@ sections:
         exclude_featured: false
     design:
       view: citation
+      show_cite: false
   - block: collection
     id: talks
     content:
@@ -71,6 +73,7 @@ sections:
           - event
     design:
       view: article-grid
+      show_cite: false
       columns: 1
   - block: collection
     id: news
@@ -102,15 +105,13 @@ sections:
       spacing:
         padding: [0, 0, 0, 0]
   - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
+    demo: false # Only display this section in the Hugo Blox Builder demo site
     content:
-      title: 👉 Build your own academic website like this
+      title: 👉 Full Publication in Pubmed
       text: |-
-        Full Publication list at Pubmed - Dereje Jima 
 
-        <a class="github-button" https://pubmed.ncbi.nlm.nih.gov/?term=Dereje+Jima&sort=date  data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Pubmed Dereje Jima">Star</a>
       button:
-        text: Get Started
+        text: Link to Pubmed
         url: https://pubmed.ncbi.nlm.nih.gov/?term=Dereje+Jima&sort=date
     design:
       card:

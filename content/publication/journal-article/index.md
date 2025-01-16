@@ -13,7 +13,7 @@ authors:
 - Liu A
 - Jirtle RL
 - Hoyo C.
-date: "2022-12-01T00:00:00Z"
+date: "2022-12-01"
 doi: "10.1080/15592294.2022.2091815"
 
 # Publication type.
@@ -31,6 +31,7 @@ abstract: Imprinted genes - critical for growth, metabolism, and neuronal functi
 tags:
 - Source Themes
 featured: false
+show_cite: false
 
 # links:
 # - name: ""
@@ -66,12 +67,9 @@ projects: []
 slides: example
 ---
 
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
+#{{% callout note %}}
+#{{% /callout %}}
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+#{{% callout note %}}
+#{{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://pubmed.ncbi.nlm.nih.gov/35786392/).

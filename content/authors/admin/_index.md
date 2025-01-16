@@ -88,7 +88,7 @@ work:
       Responsibilities include:
       - Collaborate with CHHE members to conduct interdisciplinary research
       - Serve as Boiinformatics liaison for CHHE
-  - position: Senior Research Scholar
+  - position: Senior Bioinformatician
     company_name: CNTS, Walter Reed Army Institute of Research
     company_url: ''
     company_logo: ''

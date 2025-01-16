@@ -32,7 +32,7 @@ authors:
 - Shawn Levy
 - David B Dunson
 - Sandeep S Dave
-date: "2012-04-07T00:00:00Z"
+date: "2012-04-07"
 doi: "10.1038/ng.2468"
 
 # Publication type.
@@ -87,8 +87,6 @@ slides: example
 ---
 
 
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
+#{{% callout note %}}
+#{{% /callout %}}
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](This work is driven by the results in my [previous paper](/pddublication/conference-paper/).
