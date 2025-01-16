@@ -11,9 +11,9 @@ main:
   - name: Recent Publications
     url: /#papers
     weight: 11
-  - name: Full Publications
-    url: /full_publication
-    weight: 12
+  #- name: Full Publications
+  #  url: /full_publication
+  #  weight: 12
   #- name: Talks
     #url: /#talks
     #weight: 13
