@@ -107,7 +107,7 @@ sections:
   - block: cta-card
     demo: false # Only display this section in the Hugo Blox Builder demo site
     content:
-      title: 👉 Full Publication in Pubmed
+      title: 👉 Full Publications in Pubmed
       text: |-
 
       button:
