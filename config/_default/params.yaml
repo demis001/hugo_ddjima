@@ -77,3 +77,11 @@ power_ups:
   hide_published_with: true
   i_am_a_sponsor: true
 
+# Pagination settings
+paginate: 10 # Number of items per page
+publications:
+  view: citation # Default view for publications
+  citation_style: apa # Default citation style: apa or mla
+  per_page: 10 # Items per page for publications
+
+

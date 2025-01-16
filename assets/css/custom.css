@@ -49,4 +49,13 @@ ol li small {
   color: #888;
   font-size: 0.9em;
 }
+.publication-number {
+  font-weight: bold;
+  margin-right: 8px;
+  color: #ebdddd; /* Use your preferred color */
+}
+.highlight-author {
+  font-weight: bold;
+  color: rgb(241, 241, 243);
+}
 
