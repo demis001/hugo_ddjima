@@ -1,0 +1,140 @@
+$schema: hugoblox/author/v1
+slug: admin
+is_owner: true
+name:
+  display: Dereje Jima
+  given: Dereje
+  family: Jima
+status:
+  icon: "☕️"
+role: Senior Research Scholar
+bio: |
+  Dereje Jima is a Senior Research Scholar at North Carolina State University with expertise in bioinformatics and computational biology. His work focuses on integrating and analyzing high-throughput genomic, epigenomic, and transcriptomic data to understand complex biological phenotypes, especially in the context of human disease and environmental health.
+affiliations:
+  - name: North Carolina State University
+    url: https://www.ncsu.edu/
+links:
+  - icon: at-symbol
+    url: /contact/
+    label: Contact Me
+  - icon: brands/x
+    url: https://twitter.com/GetResearchDev
+  - icon: brands/github
+    url: https://github.com/demis001
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/dereje-jima-5395ab8
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=sOPfFGAAAAAJ&hl=en&oi=ao
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-7784-1612
+interests:
+  - Large-scale genomic data analysis and integration
+  - Computational Biology
+  - AI, deep learning, and large language models
+education:
+  - degree: PhD Bioinformatics
+    institution: North Carolina State University
+    start: 2022-08-01
+    end: 2026-05-09
+    summary: |
+      Focused on the integration and analysis of high-throughput biological data.
+  - degree: MSc Bioinformatics
+    institution: Wageningen University, the Netherlands
+    start: 2003-08-30
+    end: 2005-07-31
+    summary: |
+      Graduate training in computational biology, genomics, and data integration.
+  - degree: BSc Plant Science
+    institution: Haramaya University, Ethiopia
+    start: 1996-08-25
+    end: 2000-07-30
+    summary: |
+      Graduated with distinction after completing broad training in plant science, biology, and research methods.
+experience:
+  - role: Senior Research Scholar
+    org: North Carolina State University
+    start: 2023-11-01
+    summary: |
+      Collaborate with CHHE members on interdisciplinary environmental health research, serve as Bioinformatics Liaison for CHHE, and develop reproducible analysis workflows for high-throughput biological data.
+  - role: Research Scholar
+    org: North Carolina State University
+    start: 2015-09-15
+    end: 2023-11-01
+    summary: |
+      Supported interdisciplinary CHHE projects through study design, statistical analysis, and interpretation of omics datasets.
+  - role: Senior Bioinformatician
+    org: CNTS, Walter Reed Army Institute of Research
+    start: 2014-06-15
+    end: 2015-09-15
+    summary: |
+      Worked on infectious disease bioinformatics, software application development, data analysis, data integration, and project management.
+  - role: Bioinformatician I
+    org: Duke University
+    start: 2007-03-15
+    end: 2014-06-15
+    summary: |
+      Supported cancer genomics, B-cell biology, next-generation sequencing, whole-genome SNP analysis, and statistical analysis frameworks.
+  - role: Research Associate
+    org: North Carolina State University
+    start: 2005-09-15
+    end: 2007-03-15
+    summary: |
+      Conducted Natural Killer Cell studies, developed independent research, analyzed expression microarray data, and performed molecular biology wet lab work.
+  - role: Visiting Research Scholar
+    org: Nobel Research Center, Oklahoma State University
+    start: 2005-03-15
+    end: 2005-09-15
+    summary: |
+      Worked on database integration and parsing.
+  - role: Assistant Lecturer
+    org: Ambo University
+    start: 2000-12-16
+    end: 2003-08-15
+    summary: |
+      Taught undergraduate courses and conducted independent research.
+skills:
+  - name: Technical Skills
+    items:
+      - label: Python
+        level: 4
+      - label: R
+        level: 5
+      - label: Data Science
+        level: 5
+      - label: SQL
+        level: 3
+  - name: Research & Collaboration
+    items:
+      - label: Bioinformatics workflows
+        level: 5
+      - label: Omics data integration
+        level: 5
+      - label: Mentoring
+        level: 4
+languages:
+  - name: English
+    level: 5
+  - name: Afaan Oromo
+    level: 5
+  - name: Amharic
+    level: 5
+awards:
+  - title: Pride of the Wolfpack
+    awarder: North Carolina State University
+    date: "2026-03-01"
+    summary: Recognition for contributions to North Carolina State University.
+    icon: hero/trophy
+  - title: Center for Human Health and the Environment Outstanding Member Award
+    awarder: CHHE, North Carolina State University
+    date: "2019-11-25"
+    icon: hero/trophy
+  - title: Netherlands Fellowship Program
+    awarder: Netherlands Fellowship Program
+    date: "2003-08-01"
+    summary: Scholarship support for MS study.
+    icon: hero/academic-cap
+  - title: Degree with Distinction
+    awarder: Haramaya University
+    date: "2000-06-21"
+    summary: Graduated with distinction.
+    icon: hero/academic-cap
