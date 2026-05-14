@@ -17,7 +17,6 @@ authors:
   - Liu A
   - Jirtle RL
   - Hoyo C.
-  - date: 01-12-2022
 doi: "10.1080/15592294.2022.2091815"
 
 # Schedule page publish date (NOT publication's date).
@@ -85,4 +84,3 @@ slides: example
 
 #{{% callout note %}}
 #{{% /callout %}}
-

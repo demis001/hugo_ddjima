@@ -222,7 +222,6 @@ awards:
     certificate_url: ''
     date: '2000-06-21'
     awarder: Haramaya University
-    icon: Hu-Logo1
     summary: |
       Graduated with distinction.
 ---

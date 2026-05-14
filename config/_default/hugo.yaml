@@ -8,11 +8,6 @@ title: Dereje Jima
 # Website URL
 baseURL: 'https://ddjima.com/'
 ############################
-## THEME
-############################
-theme: academic
-
-############################
 ## LANGUAGE
 ############################
 
