@@ -45,25 +45,29 @@ sections:
     id: papers
     content:
       title: Featured Publications
+      text: |-
+        Highlighted publications selected for their impact and relevance.
       filters:
         folders:
-          - full_publication_list
+          - publication
         featured_only: true
     design:
-      view: article-grid
-      show_cite: false
+      view: card
       columns: 2
   - block: collection
     content:
       title: Recent Publications
-      text: ""
+      text: |-
+        A curated list of recent peer-reviewed work. Featured items are excluded so the recent list stays fresh and uncluttered.
       filters:
         folders:
           - publication
-        exclude_featured: false
+        exclude_featured: true
+      count: 6
     design:
       view: citation
       show_cite: false
+      columns: 1
   - block: markdown
     content:
       title: "📚 Full Publication List"
