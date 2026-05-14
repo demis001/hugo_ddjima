@@ -1,8 +1,8 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "Dereje  Jima Personal Website"
+title: "Dereje Jima Personal Website"
 logo: "/media/logo.png"
-date: 2022-10-24
+date: 2024-12-17
 type: landing
 
 design:
@@ -33,21 +33,21 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: "📚 My Research"
+      subtitle: ""
       text: |-
         My research is focused on bioinformatics and computational biology, emphasizing high-throughput biological data analysis to integrate complex datasets and drive impactful discoveries. My expertise includes developing bioinformatics tools, performing advanced data analysis, and employing statistical modeling with applications in genomics, epigenomics, cancer genomics, immunology, and infectious diseases. As a Bioinformatics Liaison at the Center for Human Health and the Environment (CHHE), I collaborate with researchers across diverse disciplines, ensuring the effective integration of bioinformatics into a wide range of projects. My role involves contributing to bioinformatics initiatives, strategic research planning, and fostering collaborative efforts to address complex biological questions. Additionally, I guide and mentor PhD students, helping them navigate intricate bioinformatics challenges and develop essential research skills. I am committed to advancing scientific discovery and nurturing the next generation of researchers by creating cutting-edge tools and cultivating a dynamic, interdisciplinary research environment. My work aims to spark interest in the multidisciplinary nature of bioinformatics and its transformative potential for modern science.
-        
+
         Please reach out to collaborate 😃
     design:
-      columns: '1'
+      columns: "1"
   - block: collection
     id: papers
     content:
       title: Featured Publications
       filters:
         folders:
-          - publication
+          - full_publication_list
         featured_only: true
     design:
       view: article-grid
@@ -64,6 +64,15 @@ sections:
     design:
       view: citation
       show_cite: false
+  - block: markdown
+    content:
+      title: "📚 Full Publication List"
+      text: |-
+        You can view my complete list of peer-reviewed publications in the Full Publication List page.
+
+        [View Full Publication List](full_publication_list/)
+    design:
+      columns: "1"
   - block: collection
     id: talks
     content:
@@ -79,8 +88,8 @@ sections:
     id: news
     content:
       title: Recent News
-      subtitle: ''
-      text: ''
+      subtitle: ""
+      text: ""
       # Page type to display. E.g. post, talk, publication...
       page_type: post
       # Choose how many pages you would like to display (0 = all pages)
@@ -109,7 +118,7 @@ sections:
     content:
       title: 👉 Full Publications in Pubmed
       text: |-
-
+        Explore my publications in Pubmed and keep up with the latest research.
       button:
         text: Link to Pubmed
         url: https://pubmed.ncbi.nlm.nih.gov/?term=Dereje+Jima&sort=date

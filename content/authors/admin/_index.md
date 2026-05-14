@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Dereje D. Jima
+title: Dereje Jima
 
 # Name pronunciation (optional)
-name_pronunciation: Dereje Jima
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Dereje
@@ -24,8 +24,8 @@ role: Senior Research Scholar
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: North Carolina State Unversity
-    url: https://ncsu.edu/
+  - name: NCSU
+    url: https://www.ncsu.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -40,7 +40,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/demis001
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/dereje-jima-5395ab8/
+    url: https://www.linkedin.com/in/dereje-jima-5395ab8
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=sOPfFGAAAAAJ&hl=en&oi=ao
   - icon: academicons/orcid
@@ -52,21 +52,31 @@ interests:
   - AI, Deep Learning and LLM
 
 education:
+  - area: PhD Bioinformatics
+    institution: North Carolina State University (NCSU)
+    date_start: 2022-08-01
+    date_end: 2026-05-09
+    summary: |
+      Focused on integrating and analyzing high-throughput biological data.
   - area: MSc Bioinformatics
-    institution: Wageningen University
-    date_start: 2005-06-01
-    date_end: 2003-08-15
-    logo: '/brands/icons/wur.svg'
+    institution: Wageningen University, the Netherlands
+    date_start: 2003-08-30
+    date_end: 2005-07-31
+    summary: |
+     Check  the scientific contributions in the publication link. 
     button:
-      text: 'wur'
-      url: 'https://www.wur.nl/en.htm'
-  - area: BSc
-    institution: Haramaya University
-    date_start: 2000-07-30
-    date_end: 1996-08-15
-    button:
-        text: 'Hu-Logo1'
-        url: 'https://www.haramaya.edu.et/'
+      text: 'Publication List'
+      url: 'https://example.com'
+  - area: BSc Plant Science
+    institution: Haromaya University, Ethiopia
+    date_start: 1996-08-25
+    date_end: 2000-07-30
+    summary: |
+
+      Courses included:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Senior Research Scholar
     company_name: North Carolina State University
@@ -215,4 +225,4 @@ awards:
 
 ## About Me
 
-Dereje Jima is a Senior Bioinformatics Research Scholar at North Carolina State University. His research focuses on genomics, epigenetics, toxicology, and environmental health. He serves as the Bioinformatics Liaison at the Center for Human Health and the Environment, fostering collaborations with over 50 scientists engaged in groundbreaking research on the intersection of human health and environmental science.
+Dereje Jima is a Senior Research Scholar at North Carolina State University, with expertise in bioinformatics and computational biology. His research primarily focuses on integrating and analyzing high-throughput genomic data to understand complex biological phenotypes, especially in the context of human diseases. Jima's work is heavily centered on epigenetics, exploring how epigenetic modifications—such as DNA methylation, histone modification, and non-coding RNA regulation—contribute to disease mechanisms and the regulation of gene expression.
