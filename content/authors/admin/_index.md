@@ -31,8 +31,8 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
+    url: '/contact/'
+    label: Contact Me
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
@@ -47,9 +47,9 @@ profiles:
     url: https://orcid.org/0000-0002-7784-1612
 
 interests:
-  - Large genomic data analysis and integration
+  - Large-scale genomic data analysis and integration
   - Computational Biology
-  - AI, Deep Learning and LLM
+  - AI, deep learning, and large language models
 
 education:
   - area: PhD Bioinformatics
@@ -57,26 +57,22 @@ education:
     date_start: 2022-08-01
     date_end: 2026-05-09
     summary: |
-      Focused on integrating and analyzing high-throughput biological data.
+      Focused on the integration and analysis of high-throughput biological data.
   - area: MSc Bioinformatics
     institution: Wageningen University, the Netherlands
     date_start: 2003-08-30
     date_end: 2005-07-31
     summary: |
-     Check  the scientific contributions in the publication link. 
+      Graduate training in computational biology, genomics, and data integration.
     button:
       text: 'Publication List'
-      url: 'https://example.com'
+      url: '/full_publication/'
   - area: BSc Plant Science
     institution: Haromaya University, Ethiopia
     date_start: 1996-08-25
     date_end: 2000-07-30
     summary: |
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Graduated with distinction after completing broad training in plant science, biology, and research methods.
 work:
   - position: Senior Research Scholar
     company_name: North Carolina State University
@@ -86,8 +82,9 @@ work:
     date_end: ''
     summary: |
       Responsibilities include:
-      - Collaborate with CHHE members to conduct interdisciplinary research
-      - Serve as Boiinformatics liaison for CHHE
+      - Collaborate with CHHE members on interdisciplinary environmental health research
+      - Serve as Bioinformatics Liaison for CHHE
+      - Develop reproducible analysis workflows for high-throughput biological data
   - position: Research Scholar
     company_name: North Carolina State University
     company_url: 'https://www.ncsu.edu/'
@@ -96,8 +93,9 @@ work:
     date_end: 2023-11-01
     summary: |
       Responsibilities include:
-      - Collaborate with CHHE members to conduct interdisciplinary research
-      - Serve as Boiinformatics liaison for CHHE
+      - Collaborated with CHHE members on interdisciplinary research projects
+      - Served as Bioinformatics Liaison for CHHE
+      - Supported study design, statistical analysis, and interpretation of omics datasets
   - position: Senior Bioinformatician
     company_name: CNTS, Walter Reed Army Institute of Research
     company_url: ''
@@ -113,7 +111,7 @@ work:
   - position: Bioinformatician I
     company_name: Duke University
     company_url: ''
-    campany_logo: ''
+    company_logo: ''
     date_start: 2007-03-15
     date_end: 2014-06-15
     summary: |
@@ -134,7 +132,7 @@ work:
       - Served as staff researcher conducting studies of Natural Killer Cells
       - Developed and implemented independent research
       - Analyzed expression microarray data and conducted molecular biology wet lab work to answer specific biological question
-  - postion: Visiting Research Scholar
+  - position: Visiting Research Scholar
     company_name: Nobel Research Center, Oklahoma State University
     company_url: ''
     company_logo: ''
@@ -182,10 +180,10 @@ skills:
         description: ''
         percent: 100
         icon: person-simple-walk
-      - name: Playing Chase
+      - name: Playing Chess
         description: ''
         percent: 100
-        icon: cat
+        icon: puzzle-piece
 
 languages:
   - name: English
@@ -200,29 +198,35 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
+  - title: Pride of the Wolfpack
+    url: https://www.ncsu.edu/
+    date: '2026-03-01'
+    awarder: North Carolina State University
+    icon: NCSU
+    summary: |
+      Recognition for contributions to North Carolina State University.
   - title: Center for Human Health and the Environment Outstanding Member Award
     url: https://chhe.research.ncsu.edu/
     date: '2019-11-25'
-    awarder: CHHE, North Carolina State Unvirsity
+    awarder: CHHE, North Carolina State University
     icon: NCSU
   - title: Scholarship for Master’s study
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    url: ''
     date: '2003-08-01'
-    awarder: Netherland Fellowship Program
+    awarder: Netherlands Fellowship Program
     icon: NFP
     summary: |
-      Learned:
-      - Studied MSc in Bioinformatics
+      Scholarship support for MS study.
   - title: 'Degree with distinction for graduation with a high four years cumulative grade point average'
     url: https://www.haramaya.edu.et/
     certificate_url: ''
     date: '2000-06-21'
     awarder: Haramaya University
-    icon: datacamp
+    icon: Hu-Logo1
     summary: |
-      Graduated BSc in distinction
+      Graduated with distinction.
 ---
 
 ## About Me
 
-Dereje Jima is a Senior Research Scholar at North Carolina State University, with expertise in bioinformatics and computational biology. His research primarily focuses on integrating and analyzing high-throughput genomic data to understand complex biological phenotypes, especially in the context of human diseases. Jima's work is heavily centered on epigenetics, exploring how epigenetic modifications—such as DNA methylation, histone modification, and non-coding RNA regulation—contribute to disease mechanisms and the regulation of gene expression.
+Dereje Jima is a Senior Research Scholar at North Carolina State University with expertise in bioinformatics and computational biology. His work focuses on integrating and analyzing high-throughput genomic, epigenomic, and transcriptomic data to understand complex biological phenotypes, especially in the context of human disease and environmental health. He collaborates with interdisciplinary research teams, builds reproducible analysis workflows, and helps translate complex datasets into biological insight.

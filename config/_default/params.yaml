@@ -13,8 +13,8 @@ marketing:
   seo:
     site_type: Personal
     local_business_type: ''
-    org_name: ''
-    description: 'Dereje Jima Personal Website.'
+    org_name: 'North Carolina State University'
+    description: 'Dereje Jima is a Senior Research Scholar in bioinformatics and computational biology at North Carolina State University.'
     twitter: 'ddjima'
   analytics:
     google_analytics: ''
@@ -83,5 +83,4 @@ publications:
   view: citation # Default view for publications
   citation_style: apa # Default citation style: apa or mla
   per_page: 10 # Items per page for publications
-
 

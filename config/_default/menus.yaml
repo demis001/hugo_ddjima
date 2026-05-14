@@ -8,15 +8,15 @@ main:
     url: /
     weight: 10
     icon: images/logo_500x500.png
-  - name: Recent Publications
+  - name: Publications
     url: /#papers
     weight: 11
-  #- name: Full Publications
-  #  url: /full_publication
-  #  weight: 12
-  #- name: Talks
-    #url: /#talks
-    #weight: 13
+  - name: Full Publications
+    url: /full_publication/
+    weight: 12
+  - name: Talks
+    url: /#talks
+    weight: 13
   - name: News
     url: /#news
     weight: 14

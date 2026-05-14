@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: "Dereje Jima Personal Website"
+title: "Dereje Jima"
 logo: "/media/logo.png"
 date: 2024-12-17
 type: landing
@@ -33,12 +33,14 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: "📚 My Research"
+      title: "Research Focus"
       subtitle: ""
       text: |-
-        My research is focused on bioinformatics and computational biology, emphasizing high-throughput biological data analysis to integrate complex datasets and drive impactful discoveries. My expertise includes developing bioinformatics tools, performing advanced data analysis, and employing statistical modeling with applications in genomics, epigenomics, cancer genomics, immunology, and infectious diseases. As a Bioinformatics Liaison at the Center for Human Health and the Environment (CHHE), I collaborate with researchers across diverse disciplines, ensuring the effective integration of bioinformatics into a wide range of projects. My role involves contributing to bioinformatics initiatives, strategic research planning, and fostering collaborative efforts to address complex biological questions. Additionally, I guide and mentor PhD students, helping them navigate intricate bioinformatics challenges and develop essential research skills. I am committed to advancing scientific discovery and nurturing the next generation of researchers by creating cutting-edge tools and cultivating a dynamic, interdisciplinary research environment. My work aims to spark interest in the multidisciplinary nature of bioinformatics and its transformative potential for modern science.
+        I work at the intersection of bioinformatics, computational biology, and collaborative environmental health research. My focus is on integrating high-throughput genomic, epigenomic, transcriptomic, and other complex biological datasets to uncover mechanisms that shape human health and disease.
 
-        Please reach out to collaborate 😃
+        At the Center for Human Health and the Environment (CHHE), I serve as a bioinformatics liaison for interdisciplinary research teams. I develop reproducible analysis workflows, contribute to study design and statistical modeling, support collaborative research planning, and mentor trainees working through challenging computational biology questions.
+
+        I am especially interested in projects that turn complex data into clear biological insight. Please reach out if you would like to collaborate.
     design:
       columns: "1"
   - block: collection
@@ -55,6 +57,7 @@ sections:
       view: card
       columns: 2
   - block: collection
+    id: recent-publications
     content:
       title: Recent Publications
       text: |-
@@ -70,11 +73,11 @@ sections:
       columns: 1
   - block: markdown
     content:
-      title: "📚 Full Publication List"
+      title: "Full Publication List"
       text: |-
-        You can view my complete list of peer-reviewed publications in the Full Publication List page.
+        View the complete peer-reviewed publication record, including publications beyond the highlighted and recent selections shown above.
 
-        [View Full Publication List](full_publication_list/)
+        [View Full Publication List](/full_publication/)
     design:
       columns: "1"
   - block: collection
