@@ -9,3 +9,5 @@ tags:
 ---
 
 Dereje Jima graduated from North Carolina State University with a PhD in Bioinformatics on May 9, 2026. He completed the degree while continuing full-time work in bioinformatics research, supporting collaborative genomics, epigenomics, and multi-omics projects.
+
+[Read the LinkedIn post](https://www.linkedin.com/pulse/from-research-graduation-phd-bioinformatics-dereje-jima-msc-phd-qteue/)
