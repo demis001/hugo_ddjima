@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+<div class="max-w-4xl mx-auto px-6 my-10">
+  <header class="max-w-prose mx-auto text-center">
+    <h1 class="text-4xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">Full Publications</h1>
+  </header>
+
+  {{ $paginator := .Paginate .Pages.ByDate.Reverse }}
+  {{ $pageSize := site.Params.publications.per_page | default site.Params.paginate | default 10 }}
+  {{ $indexOffset := mul (sub $paginator.PageNumber 1) $pageSize }}
+
+  <ol class="mt-12 flex flex-col space-y-8">
+    {{ range $index, $item := $paginator.Pages }}
+      {{ partial "views/publication-summary" (dict "page" $ "item" $item "index" (add $indexOffset $index)) }}
+    {{ end }}
+  </ol>
+
+  {{ partial "components/paginator" . }}
+</div>
+
+{{ end }}
