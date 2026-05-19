@@ -1,0 +1,3 @@
+{{- $text := . | default "" -}}
+{{- $pattern := "(Dereje D\\.? Jima|Dereje Jima|Jima, Dereje D|Jima, Dereje|Jima, DD|Jima DD|Jima, D|Jima D|DD Jima|D Jima)" -}}
+{{- replaceRE $pattern "<strong class=\"highlight-author\">${1}</strong>" $text | safeHTML -}}

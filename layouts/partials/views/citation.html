@@ -6,10 +6,8 @@
   {{ if eq (site.Params.publications.citation_style | default "apa") "apa" }}
 
   <span class="article-metadata li-cite-author">
-    {{/* Highlight Dereje Jima in the authors' list */}}
     {{ $authors := partial "page_metadata_authors" .item }}
-    {{ $highlightedAuthors := replaceRE "(Dereje D Jima|Dereje Jima|Jima, DD|Jima)" "<span class='highlight-author'>${1}</span>" $authors }}
-    {{ $highlightedAuthors | safeHTML }}
+    {{ partial "functions/highlight_author" $authors }}
   </span>
   ({{- .item.Date.Format "2006" -}}).
   <a href="{{ .item.RelPermalink }}" class="underline">{{ .item.Title }}</a>.
@@ -29,10 +27,8 @@
   {{ else }}
 
   <span class="article-metadata li-cite-author">
-    {{/* Highlight Dereje Jima in the authors' list */}}
     {{ $authors := partial "page_metadata_authors" .item }}
-    {{ $highlightedAuthors := replaceRE "(Dereje Jima|Jima, DD|Jima)" "<span class='highlight-author'>${1}</span>" $authors }}
-    {{ $highlightedAuthors | safeHTML }}.
+    {{ partial "functions/highlight_author" $authors }}.
   </span>
   <a href="{{ .item.RelPermalink }}">{{ .item.Title }}</a>.
   {{ if .item.Params.publication_short }}
@@ -50,4 +46,3 @@
 
   {{ end }}
 </div>
-

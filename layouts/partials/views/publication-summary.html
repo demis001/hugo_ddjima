@@ -11,7 +11,7 @@
         <a class="hover:text-primary-600 dark:hover:text-primary-400" href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>
       </h2>
       {{ with $authors }}
-        <p class="mt-2 text-sm text-zinc-700 dark:text-zinc-300">{{ delimit . ", " }}</p>
+        <p class="mt-2 text-sm text-zinc-700 dark:text-zinc-300">{{ partial "functions/highlight_author" (delimit . ", ") }}</p>
       {{ end }}
       <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">
         {{ with $item.Params.publication }}<span class="italic">{{ . | markdownify }}</span>{{ end }}
