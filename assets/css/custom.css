@@ -55,6 +55,41 @@ body {
   color: var(--site-accent-strong);
 }
 
+html.dark .navbar {
+  background: rgba(15, 23, 42, 0.94);
+  border-bottom-color: rgba(148, 163, 184, 0.24);
+  box-shadow: 0 12px 30px rgba(2, 6, 23, 0.36);
+}
+
+html.dark .navbar-brand,
+html.dark .navbar-nav .nav-link,
+html.dark .theme-toggle,
+html.dark #search_toggle {
+  color: #f8fafc !important;
+}
+
+html.dark .navbar-nav .nav-link:hover,
+html.dark #search_toggle:hover,
+html.dark .theme-toggle:hover {
+  background: rgba(45, 212, 191, 0.14);
+  color: #99f6e4 !important;
+}
+
+html.dark .nav-dropdown-list {
+  background: #111827;
+  border: 1px solid rgba(148, 163, 184, 0.24);
+  box-shadow: 0 18px 45px rgba(2, 6, 23, 0.42);
+}
+
+html.dark .nav-dropdown-link {
+  color: #e5e7eb !important;
+}
+
+html.dark .nav-dropdown-link:hover {
+  background: rgba(45, 212, 191, 0.14);
+  color: #99f6e4 !important;
+}
+
 .hbb-section,
 .page-body {
   scroll-margin-top: 5rem;
