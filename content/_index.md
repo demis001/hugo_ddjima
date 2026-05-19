@@ -105,7 +105,7 @@ sections:
       filters:
         author: ""
         category: ""
-        tag: ""
+        tag: "News"
         exclude_featured: false
         exclude_future: false
         exclude_past: false
