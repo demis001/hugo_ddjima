@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && PATH=$PWD/node_modules/.bin:$PATH hugo --gc --minify -b $URL && npx pagefind --site public"
+  command = "npm install && PATH=$PWD/node_modules/.bin:$PATH hugo --gc --minify -b https://www.ddjima.com/ && npx pagefind --site public"
   publish = "public"
 
 [build.environment]
@@ -23,3 +23,21 @@
   package = "netlify-plugin-hugo-cache-resources"
   [plugins.inputs]
     debug = true
+
+[[redirects]]
+  from = "http://ddjima.com/*"
+  to = "https://www.ddjima.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.ddjima.com/*"
+  to = "https://www.ddjima.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://ddjima.com/*"
+  to = "https://www.ddjima.com/:splat"
+  status = 301
+  force = true
