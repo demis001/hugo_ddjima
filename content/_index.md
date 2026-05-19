@@ -43,6 +43,7 @@ sections:
         I am especially interested in projects that turn complex data into clear biological insight. Please reach out if you would like to collaborate.
     design:
       columns: "1"
+      css_class: research-focus-section
   - block: collection
     id: papers
     content:

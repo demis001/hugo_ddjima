@@ -79,6 +79,27 @@ body {
   line-height: 1.75;
 }
 
+.research-focus-section > div:not(.home-section-bg) {
+  max-width: 64rem;
+  width: 100%;
+}
+
+.research-focus-section .prose {
+  column-gap: 3rem;
+  max-width: none;
+  width: 100%;
+}
+
+.research-focus-section .prose p {
+  break-inside: avoid;
+}
+
+@media (min-width: 900px) {
+  .research-focus-section .prose {
+    column-count: 2;
+  }
+}
+
 #section-resume-biography-3 {
   min-height: 82vh;
 }
@@ -238,6 +259,10 @@ a[class*="rounded"]:hover {
   box-shadow: 0 18px 45px rgba(15, 23, 42, 0.06);
   max-width: 920px;
   padding: 1.5rem;
+}
+
+#section-markdown.research-focus-section .prose {
+  max-width: 64rem;
 }
 
 @media (max-width: 768px) {
