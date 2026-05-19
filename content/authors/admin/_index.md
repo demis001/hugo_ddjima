@@ -85,10 +85,10 @@ work:
     date_start: 2023-11-01
     date_end: ''
     summary: |
-      Responsibilities include:
-      - Collaborate with CHHE members on interdisciplinary environmental health research
-      - Serve as Bioinformatics Liaison for CHHE
+      - Serve as Bioinformatics Liaison for the Center for Human Health and the Environment (CHHE)
+      - Collaborate with interdisciplinary research teams on environmental health, genomics, epigenomics, transcriptomics, and multi-omics studies
       - Develop reproducible analysis workflows for high-throughput biological data
+      - Advise investigators and trainees on study design, statistical analysis, data interpretation, and computational strategy
   - position: Research Scholar
     company_name: North Carolina State University
     company_url: 'https://www.ncsu.edu/'
@@ -96,10 +96,10 @@ work:
     date_start: 2015-09-15
     date_end: 2023-11-01
     summary: |
-      Responsibilities include:
-      - Collaborated with CHHE members on interdisciplinary research projects
-      - Served as Bioinformatics Liaison for CHHE
-      - Supported study design, statistical analysis, and interpretation of omics datasets
+      - Supported CHHE investigators on interdisciplinary environmental health research projects
+      - Served as Bioinformatics Liaison, connecting research questions with appropriate computational and statistical approaches
+      - Analyzed and interpreted high-throughput omics datasets across collaborative studies
+      - Contributed to reproducible workflows, manuscripts, grant-related analyses, and trainee mentoring
   - position: Senior Bioinformatician
     company_name: CNTS, Walter Reed Army Institute of Research
     company_url: ''
@@ -107,11 +107,10 @@ work:
     date_start: 2014-06-15
     date_end:  2015-09-15
     summary: |
-        Responsibilities include:
-        -  Infectious diseases
-        -  Software application development (Python, R, Bioconductor)
-        -  Bioinformatics data analysis
-        -  Data integration and project management
+      - Supported infectious disease research through bioinformatics analysis and data integration
+      - Developed analysis tools and workflows using Python, R, and Bioconductor
+      - Managed multi-source biological datasets and contributed to project planning
+      - Delivered computational analyses for collaborative research teams
   - position: Bioinformatician I
     company_name: Duke University
     company_url: ''
@@ -119,23 +118,21 @@ work:
     date_start: 2007-03-15
     date_end: 2014-06-15
     summary: |
-      Responsibilities include:
-      - Cancer Genomics
-      - B-Cell Biology
-      - Next Generation Sequencing
-      - Whole Genome SNP 
-      - Design, develop and implement analysis framework and statistical support for multiple projects
-  -  position: Research Associate
-     company_name: NCSU
-     company_url: ''
-     company_logo: ''
-     date_start: 2005-09-15
-     date_end: 2007-03-15
-     summary: | 
-      Responsibilities include:
-      - Served as staff researcher conducting studies of Natural Killer Cells
-      - Developed and implemented independent research
-      - Analyzed expression microarray data and conducted molecular biology wet lab work to answer specific biological question
+      - Contributed to cancer genomics and B-cell biology research programs
+      - Analyzed next-generation sequencing, whole-genome SNP, and other high-throughput datasets
+      - Designed and implemented analysis frameworks for multiple collaborative projects
+      - Provided statistical and bioinformatics support for study design, interpretation, and publication
+  - position: Research Associate
+    company_name: North Carolina State University
+    company_url: ''
+    company_logo: ''
+    date_start: 2005-09-15
+    date_end: 2007-03-15
+    summary: | 
+      - Conducted studies of natural killer cells as a staff researcher
+      - Developed and implemented independent research projects
+      - Analyzed expression microarray data and performed molecular biology experiments
+      - Integrated computational and wet-lab approaches to address biological research questions
   - position: Visiting Research Scholar
     company_name: Nobel Research Center, Oklahoma State University
     company_url: ''
@@ -143,8 +140,8 @@ work:
     date_start: 2005-03-15
     date_end: 2005-09-15
     summary: |
-      Responsibilities include: 
-      - Database integration and parsing
+      - Supported database integration, parsing, and biological data organization
+      - Contributed to computational workflows for research data management
   - position: Assistant Lecturer
     company_name: Ambo University, Ambo, Ethiopia
     company_url: ''
@@ -152,8 +149,8 @@ work:
     date_start: 2000-12-16
     date_end: 2003-08-15
     summary: |
-        Responsibilities include:
-        - Teaching and conducting independent research
+      - Taught undergraduate courses and supported student learning
+      - Conducted independent research and contributed to departmental academic activities
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
