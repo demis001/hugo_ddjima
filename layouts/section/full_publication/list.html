@@ -12,8 +12,10 @@
     {{ partial "functions/render_view" (dict "page" $ "item" . "view" (printf "%s-start" $.Params.view) "index" 0) }}
   {{ end }}
 
-  {{ $paginator := .Paginate .Pages }}
-  <ol>
+  {{ $perPage := site.Params.publications.per_page | default site.Params.paginate | default 10 }}
+  {{ $paginator := .Paginate .Pages $perPage }}
+  {{ $listStart := add (mul (sub $paginator.PageNumber 1) $perPage) 1 }}
+  <ol start="{{ $listStart }}">
   {{ range $index, $post := $paginator.Pages }}
     <li>
       <strong>{{ $post.Title }}</strong>
@@ -34,7 +36,6 @@
     {{ partial "functions/render_view" (dict "page" $ "item" . "view" (printf "%s-end" $.Params.view) "index" 0) }}
   {{ end }}
 
-  {{ partial "pagination" . }}
 </div>
 
 {{- end -}}
