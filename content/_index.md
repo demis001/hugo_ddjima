@@ -81,17 +81,6 @@ sections:
     design:
       columns: "1"
   - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      view: article-grid
-      show_cite: false
-      columns: 1
-  - block: collection
     id: news
     content:
       title: Recent News
