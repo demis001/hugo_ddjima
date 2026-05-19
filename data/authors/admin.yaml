@@ -28,9 +28,13 @@ links:
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-7784-1612
 interests:
-  - Large-scale genomic data analysis and integration
-  - Computational Biology
-  - AI, deep learning, and large language models
+  - Machine learning for high-dimensional biological data
+  - Epigenetics and epigenomics
+  - Cancer genomics and transcriptomics
+  - Genomic imprinting and regulatory genomics
+  - Multi-omics data integration
+  - Reproducible bioinformatics workflows
+  - AI, deep learning, and large language models for biomedical research
 education:
   - degree: PhD Bioinformatics
     institution: North Carolina State University
