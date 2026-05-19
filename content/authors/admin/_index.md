@@ -40,7 +40,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/demis001
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/dereje-jima-msc-phd-5395ab8/
+    url: https://www.linkedin.com/in/dereje-jima-msc-phd-5395ab8
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=sOPfFGAAAAAJ&hl=en&oi=ao
   - icon: academicons/orcid
