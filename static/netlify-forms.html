@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Netlify Forms</title>
+  </head>
+  <body>
+    <form name="contact" method="POST" action="/contact-thank-you/" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact">
+      <input name="bot-field">
+      <input type="text" name="name">
+      <input type="email" name="email">
+      <select name="topic">
+        <option value="Research collaboration">Research collaboration</option>
+        <option value="Bioinformatics consultation">Bioinformatics consultation</option>
+        <option value="Mentoring or training">Mentoring or training</option>
+        <option value="Publication question">Publication question</option>
+        <option value="Other">Other</option>
+      </select>
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html>
