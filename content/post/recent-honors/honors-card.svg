@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Recent honors and recognitions</title>
+  <desc id="desc">A clean award-themed card for Dereje Jima's recent honors.</desc>
+  <defs>
+    <linearGradient id="bg" x1="96" y1="38" x2="1150" y2="690" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.52" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#052e2b"/>
+    </linearGradient>
+    <radialGradient id="goldGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(949 171) rotate(132) scale(407 324)">
+      <stop offset="0" stop-color="#f4c85f" stop-opacity=".5"/>
+      <stop offset=".6" stop-color="#d89b2b" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#d89b2b" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#020617" flood-opacity=".3"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <rect width="1280" height="720" fill="url(#goldGlow)"/>
+  <path d="M0 520c144-58 277-70 399-37 162 44 313 24 452-58 143-84 286-100 429-49v344H0Z" fill="#020617" opacity=".28"/>
+  <path d="M0 0h1280v86H0Z" fill="#cc0000"/>
+  <path d="M0 86h1280v4H0Z" fill="#ffffff" opacity=".7"/>
+
+  <g transform="translate(84 42)">
+    <text x="0" y="0" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" dominant-baseline="hanging">NC STATE UNIVERSITY</text>
+  </g>
+
+  <g transform="translate(812 157)" filter="url(#shadow)">
+    <circle cx="180" cy="180" r="154" fill="#ffffff" opacity=".12"/>
+    <circle cx="180" cy="180" r="118" fill="#0b3f3b" stroke="#f4c85f" stroke-width="10"/>
+    <path d="M124 129h112v56c0 47-26 82-56 82s-56-35-56-82Z" fill="none" stroke="#f8fbfa" stroke-width="17" stroke-linejoin="round"/>
+    <path d="M124 145h-39c0 48 19 76 56 84M236 145h39c0 48-19 76-56 84" fill="none" stroke="#f8fbfa" stroke-width="16" stroke-linecap="round"/>
+    <path d="M180 267v54M141 321h78M126 361h108" fill="none" stroke="#f4c85f" stroke-width="17" stroke-linecap="round"/>
+    <circle cx="180" cy="175" r="30" fill="#d89b2b"/>
+    <path d="M180 135l12 26 28 3-21 19 6 28-25-14-25 14 6-28-21-19 28-3Z" fill="#ffffff"/>
+  </g>
+
+  <g transform="translate(92 130)">
+    <text x="0" y="0" fill="#d7eee9" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" dominant-baseline="hanging">RECENT HONORS</text>
+    <text x="0" y="62" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" dominant-baseline="hanging">Recognitions</text>
+    <text x="0" y="150" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="800" dominant-baseline="hanging">and awards</text>
+    <rect x="0" y="267" width="640" height="2" fill="#f4c85f" opacity=".8"/>
+
+    <g fill="#f8fbfa" font-family="Arial, Helvetica, sans-serif">
+      <circle cx="14" cy="319" r="7" fill="#d89b2b"/>
+      <text x="40" y="299" font-size="34" font-weight="700" dominant-baseline="hanging">Pride of the Wolfpack</text>
+      <text x="40" y="340" font-size="23" fill="#d7eee9" dominant-baseline="hanging">North Carolina State University, 2026</text>
+
+      <circle cx="14" cy="401" r="7" fill="#d89b2b"/>
+      <text x="40" y="381" font-size="34" font-weight="700" dominant-baseline="hanging">CHHE Outstanding Member Award</text>
+      <text x="40" y="422" font-size="23" fill="#d7eee9" dominant-baseline="hanging">Center for Human Health and the Environment, 2019</text>
+
+      <circle cx="14" cy="483" r="7" fill="#d89b2b"/>
+      <text x="40" y="463" font-size="34" font-weight="700" dominant-baseline="hanging">Netherlands Fellowship Program</text>
+      <text x="40" y="504" font-size="23" fill="#d7eee9" dominant-baseline="hanging">Graduate study scholarship support</text>
+    </g>
+  </g>
+</svg>

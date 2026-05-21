@@ -106,7 +106,8 @@ sections:
       order: desc
     design:
       # Choose a layout view
-      view: date-title-summary
+      view: article-grid
+      columns: 2
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
