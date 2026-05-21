@@ -378,16 +378,17 @@ html.dark .contact-qr-panel a {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.contact-form label {
+.contact-form-field {
   display: grid;
   gap: 0.45rem;
   margin: 0;
 }
 
-.contact-form span {
+.contact-form label {
   color: var(--site-ink);
   font-size: 0.92rem;
   font-weight: 800;
+  margin: 0;
 }
 
 .contact-form input,
@@ -435,7 +436,7 @@ html.dark .contact-form {
   border-color: rgba(148, 163, 184, 0.24);
 }
 
-html.dark .contact-form span {
+html.dark .contact-form label {
   color: #f8fafc;
 }
 
