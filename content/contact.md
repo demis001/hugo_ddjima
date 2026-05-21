@@ -18,7 +18,7 @@ For research collaborations, bioinformatics consultations, trainee mentoring, or
   <img src="/images/contact-qr.png" alt="QR code linking to the Dereje Jima contact page">
 </div>
 
-<form class="contact-form" name="contact" method="POST" action="/contact-thank-you/" data-netlify="true" data-netlify-honeypot="bot-field">
+<form class="contact-form" name="contact" method="POST" action="/contact-thank-you/" netlify data-netlify="true" data-netlify-honeypot="bot-field">
   <input type="hidden" name="form-name" value="contact">
   <div class="hidden"><label for="contact-bot-field">Leave this field empty</label><input id="contact-bot-field" name="bot-field"></div>
   <div class="contact-form-grid">
