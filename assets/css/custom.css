@@ -44,6 +44,26 @@ body {
   letter-spacing: 0;
 }
 
+.navbar-brand {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.65rem;
+  line-height: 1;
+}
+
+.navbar-brand img {
+  border-radius: 11px;
+  height: 44px !important;
+  width: 44px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand img {
+    height: 48px !important;
+    width: 48px !important;
+  }
+}
+
 .navbar-nav .nav-link {
   border-radius: 999px;
   font-weight: 700;
