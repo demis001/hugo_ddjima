@@ -1,0 +1,43 @@
+{{- if eq .RelPermalink "/contact/" -}}
+<script>
+  (() => {
+    const form = document.querySelector(".contact-form");
+    if (!form) return;
+
+    const fields = form.querySelectorAll(".contact-form-field");
+    const message = form.querySelector("#contact-message");
+    const counter = form.querySelector("#contact-message-count");
+    const status = form.querySelector(".contact-form-status");
+    const submit = form.querySelector("button[type='submit']");
+
+    const syncFieldState = (field) => {
+      const control = field.querySelector("input, select, textarea");
+      if (!control) return;
+      field.classList.toggle("is-filled", control.value.trim().length > 0);
+    };
+
+    fields.forEach((field) => {
+      const control = field.querySelector("input, select, textarea");
+      if (!control) return;
+      syncFieldState(field);
+      control.addEventListener("input", () => syncFieldState(field));
+      control.addEventListener("change", () => syncFieldState(field));
+    });
+
+    if (message && counter) {
+      const updateCount = () => {
+        counter.textContent = `${message.value.length} / ${message.maxLength || 1200}`;
+      };
+      updateCount();
+      message.addEventListener("input", updateCount);
+    }
+
+    form.addEventListener("submit", () => {
+      if (!submit) return;
+      submit.disabled = true;
+      submit.textContent = "Sending...";
+      if (status) status.textContent = "Submitting your message securely through Netlify.";
+    });
+  })();
+</script>
+{{- end -}}
