@@ -8,10 +8,8 @@ These research tools and web apps support exploration of genomic and epigenomic 
 
 <div class="tools-grid">
   <article class="research-tool-card">
-    <div class="research-tool-visual" aria-hidden="true">
-      <span></span>
-      <span></span>
-      <span></span>
+    <div class="research-tool-visual">
+      <img src="/images/human-imprintome-icrs.png" alt="Human Imprintome methylation browser view showing ICR methylation points across genomic tracks">
     </div>
     <div class="research-tool-content">
       <p class="research-tool-kicker">Research Web App</p>
