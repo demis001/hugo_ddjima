@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">Horizontal temposeqcount pipeline overview</title>
+  <desc id="desc">TempO-Seq and RASL-Seq pipeline stages from input FASTQ files and manifest through database preparation, probe mapping, count formatting, count combining, alignment summary, and final quality plots.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f766e"/>
+    </marker>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f4faf8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="540" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1144" height="484" rx="18" fill="#ffffff" stroke="#d7e5e1"/>
+  <text x="60" y="76" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" fill="#0f4f49">TempO-Seq / RASL-Seq Count Pipeline</text>
+  <text x="60" y="108" font-family="Inter, Arial, sans-serif" font-size="16" fill="#475569">From demultiplexed reads and manifest metadata to probe-level count matrices and alignment summaries.</text>
+
+  <g font-family="Inter, Arial, sans-serif" filter="url(#shadow)">
+    <rect x="70" y="170" width="170" height="96" rx="10" fill="#4f46e5"/>
+    <text x="155" y="204" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">Inputs</text>
+    <text x="155" y="232" text-anchor="middle" font-size="13" fill="#eef2ff">FASTQ folder</text>
+    <text x="155" y="252" text-anchor="middle" font-size="13" fill="#eef2ff">manifest.csv</text>
+
+    <rect x="285" y="170" width="160" height="96" rx="10" fill="#facc15" stroke="#a16207"/>
+    <text x="365" y="205" text-anchor="middle" font-size="15" font-weight="800" fill="#172554">Prepare</text>
+    <text x="365" y="230" text-anchor="middle" font-size="13" fill="#172554">analysis</text>
+    <text x="365" y="250" text-anchor="middle" font-size="13" fill="#172554">folders</text>
+
+    <rect x="490" y="170" width="160" height="96" rx="10" fill="#facc15" stroke="#a16207"/>
+    <text x="570" y="205" text-anchor="middle" font-size="15" font-weight="800" fill="#172554">Prepare DB</text>
+    <text x="570" y="230" text-anchor="middle" font-size="13" fill="#172554">files and</text>
+    <text x="570" y="250" text-anchor="middle" font-size="13" fill="#172554">GTF</text>
+
+    <rect x="695" y="170" width="160" height="96" rx="10" fill="#ffffff" stroke="#94a3b8"/>
+    <text x="775" y="205" text-anchor="middle" font-size="15" font-weight="800" fill="#172554">Index DB</text>
+    <text x="775" y="232" text-anchor="middle" font-size="13" fill="#475569">probe reference</text>
+
+    <rect x="900" y="170" width="160" height="96" rx="10" fill="#facc15" stroke="#a16207"/>
+    <text x="980" y="205" text-anchor="middle" font-size="15" font-weight="800" fill="#172554">Map Reads</text>
+    <text x="980" y="232" text-anchor="middle" font-size="13" fill="#172554">to probes</text>
+
+    <rect x="176" y="350" width="160" height="96" rx="10" fill="#facc15" stroke="#a16207"/>
+    <text x="256" y="385" text-anchor="middle" font-size="15" font-weight="800" fill="#172554">Format</text>
+    <text x="256" y="410" text-anchor="middle" font-size="13" fill="#172554">count data</text>
+
+    <rect x="381" y="350" width="160" height="96" rx="10" fill="#ffffff" stroke="#94a3b8"/>
+    <text x="461" y="385" text-anchor="middle" font-size="15" font-weight="800" fill="#172554">Combine</text>
+    <text x="461" y="410" text-anchor="middle" font-size="13" fill="#475569">count matrix</text>
+
+    <rect x="586" y="350" width="170" height="96" rx="10" fill="#facc15" stroke="#a16207"/>
+    <text x="671" y="382" text-anchor="middle" font-size="15" font-weight="800" fill="#172554">Alignment</text>
+    <text x="671" y="407" text-anchor="middle" font-size="13" fill="#172554">summary</text>
+
+    <rect x="801" y="350" width="170" height="96" rx="10" fill="#facc15" stroke="#a16207"/>
+    <text x="886" y="382" text-anchor="middle" font-size="15" font-weight="800" fill="#172554">Plot</text>
+    <text x="886" y="407" text-anchor="middle" font-size="13" fill="#172554">alignment stats</text>
+  </g>
+
+  <g fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M 240 218 H 280"/>
+    <path d="M 445 218 H 485"/>
+    <path d="M 650 218 H 690"/>
+    <path d="M 855 218 H 895"/>
+    <path d="M 980 266 C 980 312 256 308 256 345"/>
+    <path d="M 336 398 H 376"/>
+    <path d="M 541 398 H 581"/>
+    <path d="M 756 398 H 796"/>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif">
+    <rect x="1025" y="346" width="105" height="74" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+    <rect x="1044" y="365" width="28" height="18" rx="3" fill="#4f46e5"/>
+    <text x="1082" y="379" font-size="12" fill="#334155">Input</text>
+    <rect x="1044" y="392" width="28" height="18" rx="3" fill="#facc15" stroke="#a16207"/>
+    <text x="1082" y="406" font-size="12" fill="#334155">Stage</text>
+  </g>
+</svg>

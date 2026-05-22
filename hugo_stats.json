@@ -496,6 +496,8 @@
       "research-tool-actions",
       "research-tool-button",
       "research-tool-card",
+      "research-tool-card-compact",
+      "research-tool-citation",
       "research-tool-content",
       "research-tool-kicker",
       "research-tool-link",

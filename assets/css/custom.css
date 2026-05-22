@@ -533,6 +533,10 @@ html.dark .contact-form-status {
   overflow: hidden;
 }
 
+.research-tool-card-compact {
+  grid-template-columns: minmax(360px, 1.25fr) minmax(260px, 0.75fr);
+}
+
 .research-tool-visual {
   background: #ffffff;
   min-height: 320px;
@@ -570,6 +574,11 @@ html.dark .contact-form-status {
 .research-tool-content p {
   color: var(--site-muted);
   margin: 0;
+}
+
+.research-tool-citation {
+  font-size: 0.88rem;
+  margin-top: 0.95rem !important;
 }
 
 .research-tool-actions {
