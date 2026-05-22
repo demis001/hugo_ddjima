@@ -38,4 +38,19 @@ These research tools and web apps support exploration of genomic and epigenomic 
       </div>
     </div>
   </article>
+  <article class="research-tool-card research-tool-card-compact">
+    <div class="research-tool-visual">
+      <img src="/images/pathosphere-ecbc-pipeline.png" alt="ECBC and USAMRIID-WRAIR pathogen detection pipeline workflow for sequencing data processing, host removal, assembly, taxonomy clustering, and reference mapping">
+    </div>
+    <div class="research-tool-content">
+      <p class="research-tool-kicker">Legacy Platform</p>
+      <h2>Pathosphere.org / ECBC Pipeline</h2>
+      <p>A web-based, open-source informatics platform for pathogen detection and characterization from next-generation sequencing data, including workflows for host removal, de novo assembly, taxonomy clustering, reference mapping, and nearest-neighbor identification.</p>
+      <p class="research-tool-citation">Related paper: Kilianski A, Carcel P, Yao S, et al. 2015. <em>Pathosphere.org: pathogen detection and characterization through a web-based, open source informatics platform.</em> BMC Bioinformatics 16:416. doi:10.1186/s12859-015-0840-5.</p>
+      <div class="research-tool-actions">
+        <a class="research-tool-button" href="https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0840-5" target="_blank" rel="noopener">Article</a>
+        <a class="research-tool-link" href="https://pubmed.ncbi.nlm.nih.gov/26714571/" target="_blank" rel="noopener">PubMed</a>
+      </div>
+    </div>
+  </article>
 </div>
