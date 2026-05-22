@@ -15,9 +15,11 @@ These research tools and web apps support exploration of genomic and epigenomic 
       <p class="research-tool-kicker">Research Web App</p>
       <h2>Human Imprintome</h2>
       <p>A searchable browser for human imprint control regions (ICRs), including somatic and gametic methylation datasets, gene and coordinate search, and CpG methylation visualization.</p>
+      <p class="research-tool-citation">Related paper: Jima DD, Skaar DA, Planchart A, et al. 2022. <em>Genomic map of candidate human imprint control regions: the imprintome.</em> Epigenetics 17(13):1920-1943. doi:10.1080/15592294.2022.2091815.</p>
       <div class="research-tool-actions">
         <a class="research-tool-button" href="https://www.humanicr.org/" target="_blank" rel="noopener">Project Site</a>
         <a class="research-tool-link" href="https://jb2.humanicr.org/" target="_blank" rel="noopener">Open Browser</a>
+        <a class="research-tool-link" href="https://pubmed.ncbi.nlm.nih.gov/35786392/" target="_blank" rel="noopener">Paper</a>
       </div>
     </div>
   </article>
