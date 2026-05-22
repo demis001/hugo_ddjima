@@ -18,7 +18,7 @@ These research tools and web apps support exploration of genomic and epigenomic 
       <p class="research-tool-citation">Related paper: Jima DD, Skaar DA, Planchart A, et al. 2022. <em>Genomic map of candidate human imprint control regions: the imprintome.</em> Epigenetics 17(13):1920-1943. doi:10.1080/15592294.2022.2091815.</p>
       <div class="research-tool-actions">
         <a class="research-tool-button" href="https://www.humanicr.org/" target="_blank" rel="noopener">Project Site</a>
-        <a class="research-tool-link" href="https://pubmed.ncbi.nlm.nih.gov/35786392/" target="_blank" rel="noopener">Paper</a>
+        <a class="research-tool-link" href="https://pubmed.ncbi.nlm.nih.gov/35786392/" target="_blank" rel="noopener">PubMed</a>
       </div>
     </div>
   </article>
@@ -33,7 +33,7 @@ These research tools and web apps support exploration of genomic and epigenomic 
       <p class="research-tool-citation">Related paper: House JS, Grimm FA, Jima DD, Zhou Y-H, Rusyn I, Wright FA. 2017. <em>A Pipeline for High-Throughput Concentration Response Modeling of Gene Expression for Toxicogenomics.</em> Frontiers in Genetics 8:168. doi:10.3389/fgene.2017.00168.</p>
       <div class="research-tool-actions">
         <a class="research-tool-button" href="https://github.com/demis001/temposeqcount" target="_blank" rel="noopener">GitHub Repository</a>
-        <a class="research-tool-link" href="https://pubmed.ncbi.nlm.nih.gov/29163636/" target="_blank" rel="noopener">Paper</a>
+        <a class="research-tool-link" href="https://pubmed.ncbi.nlm.nih.gov/29163636/" target="_blank" rel="noopener">PubMed</a>
       </div>
     </div>
   </article>
