@@ -17,6 +17,9 @@ main:
   - name: News
     url: /news/
     weight: 14
+  - name: Tools
+    url: /tools/
+    weight: 16
   - name: Experience
     url: experience/
     weight: 20
