@@ -1,6 +1,7 @@
 ---
 title: "Contact"
 type: page
+backlinks: false
 form:
   provider: netlify
   netlify:
