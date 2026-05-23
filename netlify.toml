@@ -24,6 +24,12 @@
   [plugins.inputs]
     debug = true
 
+[[context.production.plugins]]
+  package = "netlify-plugin-submit-sitemap"
+  [context.production.plugins.inputs]
+    baseUrl = "https://www.ddjima.com"
+    sitemapPath = "/sitemap.xml"
+
 [[redirects]]
   from = "http://ddjima.com/*"
   to = "https://www.ddjima.com/:splat"
