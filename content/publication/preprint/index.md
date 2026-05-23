@@ -33,7 +33,9 @@ authors:
 - David B Dunson
 - Sandeep S Dave
 date: "2012-04-07"
-doi: "10.1038/ng.2468"
+hugoblox:
+  ids:
+    doi: "10.1038/ng.2468"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -52,16 +54,8 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
+- name: PMC
   url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3674561/
-url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3674561/'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -83,10 +77,5 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
-
-
-#{{% callout note %}}
-#{{% /callout %}}
-

@@ -2,6 +2,7 @@
 title: "Tools"
 type: page
 backlinks: false
+sharing_image: "sharing-tools.png"
 description: "Research tools and web applications developed or supported by Dereje Jima, including Human Imprintome, temposeqcount, and the legacy Pathosphere.org ECBC pipeline."
 summary: "Research tools and web applications developed or supported by Dereje Jima, including Human Imprintome, temposeqcount, and the legacy Pathosphere.org ECBC pipeline."
 ---

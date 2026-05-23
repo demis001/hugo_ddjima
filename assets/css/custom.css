@@ -657,6 +657,77 @@ html.dark .research-tool-content p {
   max-width: 64rem;
 }
 
+.research-themes-section .prose,
+.research-profiles-section .prose {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  max-width: 1120px !important;
+  padding: 0 !important;
+}
+
+.research-themes-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 1.25rem;
+}
+
+.research-theme {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(248, 251, 250, 0.92));
+  border: 1px solid rgba(15, 23, 42, 0.10);
+  border-radius: 8px;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.07);
+  padding: 1.15rem;
+}
+
+.research-theme h3 {
+  color: #0f4f49;
+  font-size: 1.05rem;
+  font-weight: 850;
+  margin: 0 0 0.45rem;
+}
+
+.research-theme p {
+  font-size: 0.95rem;
+  margin: 0;
+}
+
+.research-profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.research-profile-links a {
+  background: #ffffff;
+  border: 1px solid rgba(15, 118, 110, 0.20);
+  border-radius: 8px;
+  color: var(--site-accent-strong);
+  font-weight: 800;
+  padding: 0.72rem 1rem;
+  text-decoration: none;
+}
+
+.research-profile-links a:hover {
+  background: rgba(15, 118, 110, 0.08);
+  color: #0f4f49;
+}
+
+html.dark .research-theme,
+html.dark .research-profile-links a {
+  background: rgba(17, 24, 39, 0.94);
+  border-color: rgba(148, 163, 184, 0.24);
+}
+
+html.dark .research-theme h3,
+html.dark .research-profile-links a {
+  color: #99f6e4;
+}
+
 @media (max-width: 768px) {
   .hbb-section {
     padding-top: 3rem;
@@ -690,6 +761,15 @@ html.dark .research-tool-content p {
 
   .research-tool-visual {
     min-height: 220px;
+  }
+
+  .research-themes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .research-profile-links a {
+    text-align: center;
+    width: 100%;
   }
 
   #section-resume-biography-3,

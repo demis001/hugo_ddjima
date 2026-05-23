@@ -17,7 +17,9 @@ authors:
   - Liu A
   - Jirtle RL
   - Hoyo C.
-doi: "10.1080/15592294.2022.2091815"
+hugoblox:
+  ids:
+    doi: "10.1080/15592294.2022.2091815"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: '2022-01-01'
@@ -47,14 +49,11 @@ show_cite: false
 # - name: Custom Link
 #   url: https://pubmed.ncbi.nlm.nih.gov/35786392/
 
-url_pdf: ''
-url_code: 'https://pubmed.ncbi.nlm.nih.gov/35786392/'
-url_dataset: 'https://humanicr.org/'
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
+links:
+  - type: pubmed
+    url: 'https://pubmed.ncbi.nlm.nih.gov/35786392/'
+  - type: website
+    url: 'https://humanicr.org/'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
@@ -76,11 +75,5 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
-
-#{{% callout note %}}
-#{{% /callout %}}
-
-#{{% callout note %}}
-#{{% /callout %}}

@@ -4,6 +4,7 @@ title: "Dereje Jima"
 logo: "/media/logo.png"
 date: 2024-12-17
 type: landing
+sharing_image: "sharing-home.png"
 description: "Dereje Jima is a Senior Research Scholar in bioinformatics and computational biology at North Carolina State University, working on genomics, epigenomics, transcriptomics, environmental health, reproducible workflows, and collaborative data science."
 summary: "Dereje Jima is a Senior Research Scholar in bioinformatics and computational biology at North Carolina State University, working on genomics, epigenomics, transcriptomics, environmental health, reproducible workflows, and collaborative data science."
 
@@ -46,6 +47,46 @@ sections:
     design:
       columns: "1"
       css_class: research-focus-section
+  - block: markdown
+    content:
+      title: "Research Themes"
+      subtitle: ""
+      text: |-
+        <div class="research-themes-grid">
+          <section class="research-theme">
+            <h3>Epigenomics</h3>
+            <p>DNA methylation, imprint control regions, regulatory genomics, and developmental origins of disease.</p>
+          </section>
+          <section class="research-theme">
+            <h3>Environmental Health</h3>
+            <p>Collaborative CHHE projects connecting exposure biology, human health, and interpretable omics analysis.</p>
+          </section>
+          <section class="research-theme">
+            <h3>Multi-omics</h3>
+            <p>Integrated analysis of genomic, transcriptomic, epigenomic, and other high-throughput biological data.</p>
+          </section>
+          <section class="research-theme">
+            <h3>Reproducible Bioinformatics</h3>
+            <p>Reusable workflows, statistical modeling, and computational strategy for research teams and trainees.</p>
+          </section>
+        </div>
+    design:
+      columns: "1"
+      css_class: research-themes-section
+  - block: markdown
+    content:
+      title: "Research Profiles"
+      subtitle: ""
+      text: |-
+        <div class="research-profile-links">
+          <a href="https://scholar.google.com/citations?user=sOPfFGAAAAAJ&hl=en&oi=ao" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://orcid.org/0000-0002-7784-1612" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Dereje+Jima&sort=date" target="_blank" rel="noopener">PubMed</a>
+          <a href="https://github.com/demis001" target="_blank" rel="noopener">GitHub</a>
+        </div>
+    design:
+      columns: "1"
+      css_class: research-profiles-section
   - block: collection
     id: papers
     content:

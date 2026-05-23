@@ -8,4 +8,4 @@ The website is available at `https://www.ddjima.com/`.
 
 The production site is deployed with Netlify from this repository and published at `https://www.ddjima.com/`.
 
-Netlify's live deploy status badge can be added here after copying the badge Markdown from Netlify Site settings > Build & deploy > Status badges.
+Add the live Netlify status badge here after copying the badge Markdown from Netlify Site settings > Build & deploy > Status badges. The badge URL contains a Netlify API badge ID that is not stored in this repository.
