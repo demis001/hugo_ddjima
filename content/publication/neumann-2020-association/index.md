@@ -37,7 +37,7 @@ authors:
 - Caroline L Relton
 - Henning Tiemeier
 date: '2020-01-01'
-publishDate: '2026-05-23T12:15:20.085970Z'
+publishDate: '2026-05-23T12:21:44.477018Z'
 publication_types:
 - article-journal
 publication: '*Translational psychiatry*'

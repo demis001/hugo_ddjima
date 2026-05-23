@@ -14,7 +14,7 @@ authors:
 - Randy L Jirtle
 - Cathrine Hoyo
 date: '2022-01-01'
-publishDate: '2026-05-23T12:15:20.060219Z'
+publishDate: '2026-05-23T12:21:44.449693Z'
 publication_types:
 - article-journal
 publication: '*Epigenetics*'

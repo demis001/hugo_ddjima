@@ -16,7 +16,7 @@ authors:
 - Hervé Guillou
 - Michael Cowley
 date: '2022-01-01'
-publishDate: '2026-05-23T12:15:20.067015Z'
+publishDate: '2026-05-23T12:21:44.456858Z'
 publication_types:
 - article-journal
 publication: '*Hepatology (Baltimore, Md.)*'

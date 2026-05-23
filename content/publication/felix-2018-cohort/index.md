@@ -126,7 +126,7 @@ authors:
 - Vincent W V Jaddoe
 - Stephanie J London
 date: '2018-01-01'
-publishDate: '2026-05-23T12:15:20.118318Z'
+publishDate: '2026-05-23T12:21:44.511398Z'
 publication_types:
 - article-journal
 publication: '*International journal of epidemiology*'

@@ -206,6 +206,13 @@ def write_bibtex(root: ET.Element, output: Path) -> int:
     return len(entries)
 
 
+def current_pmids_from_bibtex(bib_file: Path) -> set[str]:
+    if not bib_file.exists():
+        return set()
+    content = bib_file.read_text(encoding="utf-8")
+    return set(re.findall(r"^\s*pmid\s*=\s*\{([^}]+)\}", content, flags=re.MULTILINE))
+
+
 def run_import(bib_file: Path, destination: Path) -> None:
     academic = shutil.which("academic")
     if not academic:
@@ -234,6 +241,25 @@ def normalize_hugoblox_doi(destination: Path) -> int:
         page.write_text(pattern.sub(replacement, content, count=1), encoding="utf-8")
         changed += 1
     return changed
+
+
+def remove_stale_imported_publications(destination: Path, bib_file: Path) -> int:
+    """Remove previously imported PubMed pages that are no longer in the filtered BibTeX."""
+    current_pmids = current_pmids_from_bibtex(bib_file)
+    if not current_pmids:
+        return 0
+
+    removed = 0
+    for page in destination.glob("*/index.md"):
+        content = page.read_text(encoding="utf-8")
+        if not re.search(r"^publishDate:\s*['\"]2026-", content, flags=re.MULTILINE):
+            continue
+        match = re.search(r"pubmed\.ncbi\.nlm\.nih\.gov/(\d+)/", content)
+        if not match or match.group(1) in current_pmids:
+            continue
+        shutil.rmtree(page.parent)
+        removed += 1
+    return removed
 
 
 def restore_curated_publications(destination: Path) -> int:
@@ -287,6 +313,9 @@ def main() -> int:
         changed = normalize_hugoblox_doi(destination)
         if changed:
             print(f"Normalized DOI metadata in {changed} imported publication pages")
+        removed = remove_stale_imported_publications(destination, output)
+        if removed:
+            print(f"Removed {removed} stale imported publication pages")
         restored = restore_curated_publications(destination)
         if restored:
             print(f"Restored featured metadata in {restored} curated publication pages")

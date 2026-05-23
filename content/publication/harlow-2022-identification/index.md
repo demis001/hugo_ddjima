@@ -36,7 +36,7 @@ authors:
 - Asami Oguro-Ando
 - Timothy M Frayling
 date: '2022-01-01'
-publishDate: '2026-05-23T12:15:20.071276Z'
+publishDate: '2026-05-23T12:21:44.461394Z'
 publication_types:
 - article-journal
 publication: '*American journal of human genetics*'

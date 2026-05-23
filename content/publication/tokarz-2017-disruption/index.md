@@ -14,7 +14,7 @@ authors:
 - Steffen Heber
 - Jeffrey A Yoder
 date: '2017-01-01'
-publishDate: '2026-05-23T12:15:20.123617Z'
+publishDate: '2026-05-23T12:21:44.517604Z'
 publication_types:
 - article-journal
 publication: '*Journal of leukocyte biology*'

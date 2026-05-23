@@ -8,7 +8,7 @@ authors:
 - Majemite Iyangbe
 - John Bang
 date: '2025-01-01'
-publishDate: '2026-05-23T12:15:20.018368Z'
+publishDate: '2026-05-23T12:21:44.408060Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in toxicology*'

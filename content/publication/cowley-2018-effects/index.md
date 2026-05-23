@@ -11,7 +11,7 @@ authors:
 - Patricia Sorrow
 - Cathrine Hoyo
 date: '2018-01-01'
-publishDate: '2026-05-23T12:15:20.113925Z'
+publishDate: '2026-05-23T12:21:44.506739Z'
 publication_types:
 - article-journal
 publication: '*Environmental health perspectives*'

@@ -14,7 +14,7 @@ authors:
 - Janine F Felix
 - Rosa H Mulder
 date: '2023-01-01'
-publishDate: '2026-05-23T12:15:20.038229Z'
+publishDate: '2026-05-23T12:21:44.427573Z'
 publication_types:
 - article-journal
 publication: '*Appetite*'

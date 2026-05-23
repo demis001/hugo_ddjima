@@ -38,7 +38,7 @@ authors:
 - David Dunson
 - Sandeep S Dave
 date: '2013-01-01'
-publishDate: '2026-05-23T12:15:20.157137Z'
+publishDate: '2026-05-23T12:21:44.553785Z'
 publication_types:
 - article-journal
 publication: '*Proceedings of the National Academy of Sciences of the United States

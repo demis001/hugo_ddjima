@@ -18,7 +18,7 @@ authors:
 - Cathrine Hoyo
 - Cynthia A Moylan
 date: '2023-01-01'
-publishDate: '2026-05-23T12:15:20.040298Z'
+publishDate: '2026-05-23T12:21:44.429658Z'
 publication_types:
 - article-journal
 publication: '*Hepatology communications*'
