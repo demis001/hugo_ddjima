@@ -8,7 +8,7 @@ main:
     url: /
     weight: 10
     icon: images/logo_500x500.png
-  - name: Publications
+  - name: Featured Publications
     url: /#papers
     weight: 11
   - name: Full Publications
