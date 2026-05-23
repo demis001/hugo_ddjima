@@ -1,0 +1,143 @@
+---
+title: Meta-analysis of epigenome-wide association studies in neonates reveals widespread
+  differential DNA methylation associated with birthweight.
+authors:
+- Leanne K Küpers
+- Claire Monnereau
+- Gemma C Sharp
+- Paul Yousefi
+- Lucas A Salas
+- Akram Ghantous
+- Christian M Page
+- Sarah E Reese
+- Allen J Wilcox
+- Darina Czamara
+- Anne P Starling
+- Alexei Novoloaca
+- Samantha Lent
+- Ritu Roy
+- Cathrine Hoyo
+- Carrie V Breton
+- Catherine Allard
+- Allan C Just
+- Kelly M Bakulski
+- John W Holloway
+- Todd M Everson
+- Cheng-Jian Xu
+- Rae-Chi Huang
+- Diana A van der Plaat
+- Matthias Wielscher
+- Simon Kebede Merid
+- Vilhelmina Ullemar
+- Faisal I Rezwan
+- Jari Lahti
+- Jenny van Dongen
+- Sabine A S Langie
+- Tom G Richardson
+- Maria C Magnus
+- Ellen A Nohr
+- Zongli Xu
+- Liesbeth Duijts
+- Shanshan Zhao
+- Weiming Zhang
+- Michelle Plusquin
+- Dawn L DeMeo
+- Olivia Solomon
+- Joosje H Heimovaara
+- Dereje D Jima
+- Lu Gao
+- Mariona Bustamante
+- Patrice Perron
+- Robert O Wright
+- Irva Hertz-Picciotto
+- Hongmei Zhang
+- Margaret R Karagas
+- Ulrike Gehring
+- Carmen J Marsit
+- Lawrence J Beilin
+- Judith M Vonk
+- Marjo-Riitta Jarvelin
+- Anna Bergström
+- Anne K Örtqvist
+- Susan Ewart
+- Pia M Villa
+- Sophie E Moore
+- Gonneke Willemsen
+- Arnout R L Standaert
+- Siri E Håberg
+- Thorkild I A Sørensen
+- Jack A Taylor
+- Katri Räikkönen
+- Ivana V Yang
+- Katerina Kechris
+- Tim S Nawrot
+- Matt J Silver
+- Yun Yun Gong
+- Lorenzo Richiardi
+- Manolis Kogevinas
+- Augusto A Litonjua
+- Brenda Eskenazi
+- Karen Huen
+- Hamdi Mbarek
+- Rachel L Maguire
+- Terence Dwyer
+- Martine Vrijheid
+- Luigi Bouchard
+- Andrea A Baccarelli
+- Lisa A Croen
+- Wilfried Karmaus
+- Denise Anderson
+- Maaike de Vries
+- Sylvain Sebert
+- Juha Kere
+- Robert Karlsson
+- Syed Hasan Arshad
+- Esa Hämäläinen
+- Michael N Routledge
+- Dorret I Boomsma
+- Andrew P Feinberg
+- Craig J Newschaffer
+- Eva Govarts
+- Matthieu Moisse
+- M Daniele Fallin
+- Erik Melén
+- Andrew M Prentice
+- Eero Kajantie
+- Catarina Almqvist
+- Emily Oken
+- Dana Dabelea
+- H Marike Boezen
+- Phillip E Melton
+- Rosalind J Wright
+- Gerard H Koppelman
+- Letizia Trevisi
+- Marie-France Hivert
+- Jordi Sunyer
+- Monica C Munthe-Kaas
+- Susan K Murphy
+- Eva Corpeleijn
+- Joseph Wiemels
+- Nina Holland
+- Zdenko Herceg
+- Elisabeth B Binder
+- George Davey Smith
+- Vincent W V Jaddoe
+- Rolv T Lie
+- Wenche Nystad
+- Stephanie J London
+- Debbie A Lawlor
+- Caroline L Relton
+- Harold Snieder
+- Janine F Felix
+date: '2019-01-01'
+publishDate: '2026-05-23T11:42:49.446540Z'
+publication_types:
+- article-journal
+publication: '*Nature communications*'
+hugoblox:
+  ids:
+    doi: "10.1038/s41467-019-09671-3"
+links:
+- name: URL
+  url: https://pubmed.ncbi.nlm.nih.gov/31015461/
+---

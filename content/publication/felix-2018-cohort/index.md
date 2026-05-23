@@ -1,10 +1,5 @@
 ---
-title: 'Cohort profile: pregnancy and childhood epigenetics (PACE) consortium'
-
-# Authors
-# A YAML list of author names
-# If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
-# write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
+title: 'Cohort Profile: Pregnancy And Childhood Epigenetics (PACE) Consortium.'
 authors:
 - Janine F Felix
 - Bonnie R Joubert
@@ -13,69 +8,132 @@ authors:
 - Catarina Almqvist
 - Isabella Annesi-Maesano
 - Hasan Arshad
-- Nour Baiz
+- Nour Baïz
 - Marian J Bakermans-Kranenburg
 - Kelly M Bakulski
-- ' others'
-
-# Author notes (such as 'Equal Contribution')
-# A YAML list of notes for each author in the above `authors` list
-author_notes: []
-
+- Elisabeth B Binder
+- Luigi Bouchard
+- Carrie V Breton
+- Bert Brunekreef
+- Kelly J Brunst
+- Esteban G Burchard
+- Mariona Bustamante
+- Leda Chatzi
+- Monica Cheng Munthe-Kaas
+- Eva Corpeleijn
+- Darina Czamara
+- Dana Dabelea
+- George Davey Smith
+- Patrick De Boever
+- Liesbeth Duijts
+- Terence Dwyer
+- Celeste Eng
+- Brenda Eskenazi
+- Todd M Everson
+- Fahimeh Falahi
+- M Daniele Fallin
+- Sara Farchi
+- Mariana F Fernandez
+- Lu Gao
+- Tom R Gaunt
+- Akram Ghantous
+- Matthew W Gillman
+- Semira Gonseth
+- Veit Grote
+- Olena Gruzieva
+- Siri E Håberg
+- Zdenko Herceg
+- Marie-France Hivert
+- Nina Holland
+- John W Holloway
+- Cathrine Hoyo
+- Donglei Hu
+- Rae-Chi Huang
+- Karen Huen
+- Marjo-Riitta Järvelin
+- Dereje D Jima
+- Allan C Just
+- Margaret R Karagas
+- Robert Karlsson
+- Wilfried Karmaus
+- Katerina J Kechris
+- Juha Kere
+- Manolis Kogevinas
+- Berthold Koletzko
+- Gerard H Koppelman
+- Leanne K Küpers
+- Christine Ladd-Acosta
+- Jari Lahti
+- Nathalie Lambrechts
+- Sabine A S Langie
+- Rolv T Lie
+- Andrew H Liu
+- Maria C Magnus
+- Per Magnus
+- Rachel L Maguire
+- Carmen J Marsit
+- Wendy McArdle
+- Erik Melén
+- Phillip Melton
+- Susan K Murphy
+- Tim S Nawrot
+- Lorenza Nisticò
+- Ellen A Nohr
+- Björn Nordlund
+- Wenche Nystad
+- Sam S Oh
+- Emily Oken
+- Christian M Page
+- Patrice Perron
+- Göran Pershagen
+- Costanza Pizzi
+- Michelle Plusquin
+- Katri Raikkonen
+- Sarah E Reese
+- Eva Reischl
+- Lorenzo Richiardi
+- Susan Ring
+- Ritu P Roy
+- Peter Rzehak
+- Greet Schoeters
+- David A Schwartz
+- Sylvain Sebert
+- Harold Snieder
+- Thorkild I A Sørensen
+- Anne P Starling
+- Jordi Sunyer
+- Jack A Taylor
+- Henning Tiemeier
+- Vilhelmina Ullemar
+- Marina Vafeiadi
+- Marinus H Van Ijzendoorn
+- Judith M Vonk
+- Annette Vriens
+- Martine Vrijheid
+- Pei Wang
+- Joseph L Wiemels
+- Allen J Wilcox
+- Rosalind J Wright
+- Cheng-Jian Xu
+- Zongli Xu
+- Ivana V Yang
+- Paul Yousefi
+- Hongmei Zhang
+- Weiming Zhang
+- Shanshan Zhao
+- Golareh Agha
+- Caroline L Relton
+- Vincent W V Jaddoe
+- Stephanie J London
 date: '2018-01-01'
-
-# Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2024-12-31T05:56:00.736898Z'
-
-# Publication type.
-# A single CSL publication type but formatted as a YAML list (for Hugo requirements).
+publishDate: '2026-05-23T11:42:49.477859Z'
 publication_types:
 - article-journal
-
-# Publication name and optional abbreviated publication name.
 publication: '*International journal of epidemiology*'
-publication_short: ''
-
-doi: ''
-
-abstract: ''
-
-# Summary. An optional shortened abstract.
-summary: ''
-
-tags: []
-
-# Display this page in a list of Featured pages?
-featured: false
-
-# Links
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-# Publication image
-# Add an image named `featured.jpg/png` to your page's folder then add a caption below.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
+hugoblox:
+  ids:
+    doi: "10.1093/ije/dyx190"
+links:
+- name: URL
+  url: https://pubmed.ncbi.nlm.nih.gov/29025028/
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

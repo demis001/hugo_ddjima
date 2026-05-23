@@ -1,11 +1,6 @@
 ---
 title: Analysis of DNA methylation at birth and in childhood reveals changes associated
-  with season of birth and latitude
-
-# Authors
-# A YAML list of author names
-# If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
-# write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
+  with season of birth and latitude.
 authors:
 - Latha Kadalayil
 - Md Zahangir Alam
@@ -17,66 +12,108 @@ authors:
 - Ashish Kumar
 - Ritu P Roy
 - Olivia Solomon
-- ' others'
-
-# Author notes (such as 'Equal Contribution')
-# A YAML list of notes for each author in the above `authors` list
-author_notes: []
-
+- Karen Huen
+- Brenda Eskenazi
+- Peter Rzehak
+- Veit Grote
+- Jean-Paul Langhendries
+- Elvira Verduci
+- Natalia Ferre
+- Darek Gruszfeld
+- Lu Gao
+- Weihua Guan
+- Xuehuo Zeng
+- Enrique F Schisterman
+- John F Dou
+- Kelly M Bakulski
+- Jason I Feinberg
+- Munawar Hussain Soomro
+- Giancarlo Pesce
+- Nour Baiz
+- Elena Isaevska
+- Michelle Plusquin
+- Marina Vafeiadi
+- Theano Roumeliotaki
+- Sabine A S Langie
+- Arnout Standaert
+- Catherine Allard
+- Patrice Perron
+- Luigi Bouchard
+- Evelien R van Meel
+- Janine F Felix
+- Vincent W V Jaddoe
+- Paul D Yousefi
+- Cecilia H Ramlau-Hansen
+- Caroline L Relton
+- Elmar W Tobi
+- Anne P Starling
+- Ivana V Yang
+- Maria Llambrich
+- Gillian Santorelli
+- Johanna Lepeule
+- Lucas A Salas
+- Mariona Bustamante
+- Susan L Ewart
+- Hongmei Zhang
+- Wilfried Karmaus
+- Stefan Röder
+- Ana Claudia Zenclussen
+- Jianping Jin
+- Wenche Nystad
+- Christian M Page
+- Maria Magnus
+- Dereje D Jima
+- Cathrine Hoyo
+- Rachel L Maguire
+- Tuomas Kvist
+- Darina Czamara
+- Katri Räikkönen
+- Tong Gong
+- Vilhelmina Ullemar
+- Sheryl L Rifas-Shiman
+- Emily Oken
+- Catarina Almqvist
+- Robert Karlsson
+- Jari Lahti
+- Susan K Murphy
+- Siri E Håberg
+- Stephanie London
+- Gunda Herberth
+- Hasan Arshad
+- Jordi Sunyer
+- Regina Grazuleviciene
+- Dana Dabelea
+- Régine P M Steegers-Theunissen
+- Ellen A Nohr
+- Thorkild I A Sørensen
+- Liesbeth Duijts
+- Marie-France Hivert
+- Vera Nelen
+- Maja Popovic
+- Manolis Kogevinas
+- Tim S Nawrot
+- Zdenko Herceg
+- Isabella Annesi-Maesano
+- M Daniele Fallin
+- Edwina Yeung
+- Carrie V Breton
+- Berthold Koletzko
+- Nina Holland
+- Joseph L Wiemels
+- Erik Melén
+- Gemma C Sharp
+- Matt J Silver
+- Faisal I Rezwan
+- John W Holloway
 date: '2023-01-01'
-
-# Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2024-12-31T05:56:01.008950Z'
-
-# Publication type.
-# A single CSL publication type but formatted as a YAML list (for Hugo requirements).
+publishDate: '2026-05-23T11:42:49.386249Z'
 publication_types:
 - article-journal
-
-# Publication name and optional abbreviated publication name.
 publication: '*Clinical epigenetics*'
-publication_short: ''
-
-doi: ''
-
-abstract: ''
-
-# Summary. An optional shortened abstract.
-summary: 'Analyzes DNA methylation at birth and in childhood to identify changes associated with childhood body size and adiposity-related traits.'
-
-tags: []
-
-# Display this page in a list of Featured pages?
-featured: false
-
-# Links
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-# Publication image
-# Add an image named `featured.jpg/png` to your page's folder then add a caption below.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
+hugoblox:
+  ids:
+    doi: "10.1186/s13148-023-01542-5"
+links:
+- name: URL
+  url: https://pubmed.ncbi.nlm.nih.gov/37697338/
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

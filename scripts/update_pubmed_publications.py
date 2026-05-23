@@ -191,6 +191,24 @@ def run_import(bib_file: Path, destination: Path) -> None:
     )
 
 
+def normalize_hugoblox_doi(destination: Path) -> int:
+    """Move imported top-level DOI fields to the current Hugo Blox field."""
+    changed = 0
+    pattern = re.compile(r'^doi:\s*["\']?([^"\'\n]+)["\']?\s*$', re.MULTILINE)
+    for page in destination.glob("*/index.md"):
+        content = page.read_text(encoding="utf-8")
+        if "hugoblox:\n  ids:\n    doi:" in content:
+            continue
+        match = pattern.search(content)
+        if not match:
+            continue
+        doi = match.group(1).strip()
+        replacement = f'hugoblox:\n  ids:\n    doi: "{doi}"'
+        page.write_text(pattern.sub(replacement, content, count=1), encoding="utf-8")
+        changed += 1
+    return changed
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Update publication pages from PubMed.")
     parser.add_argument("--query", default=DEFAULT_QUERY, help="PubMed query to fetch.")
@@ -211,6 +229,9 @@ def main() -> int:
     print(f"Wrote {count} PubMed records to {output}")
     if not args.skip_import:
         run_import(output, destination)
+        changed = normalize_hugoblox_doi(destination)
+        if changed:
+            print(f"Normalized DOI metadata in {changed} imported publication pages")
     return 0
 
 

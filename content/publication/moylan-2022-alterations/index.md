@@ -1,11 +1,6 @@
 ---
 title: Alterations in DNA methylation associate with fatty liver and metabolic abnormalities
-  in a multi-ethnic cohort of pre-teenage children
-
-# Authors
-# A YAML list of author names
-# If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
-# write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
+  in a multi-ethnic cohort of pre-teenage children.
 authors:
 - Cynthia A Moylan
 - Alisha M Mavis
@@ -17,66 +12,18 @@ authors:
 - Alice Parish
 - Donna Niedzwiecki
 - Anna Mae Diehl
-- ' others'
-
-# Author notes (such as 'Equal Contribution')
-# A YAML list of notes for each author in the above `authors` list
-author_notes: []
-
+- Susan K Murphy
+- Manal F Abdelmalek
+- Cathrine Hoyo
 date: '2022-01-01'
-
-# Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2024-12-31T05:56:00.898720Z'
-
-# Publication type.
-# A single CSL publication type but formatted as a YAML list (for Hugo requirements).
+publishDate: '2026-05-23T11:42:49.408587Z'
 publication_types:
 - article-journal
-
-# Publication name and optional abbreviated publication name.
 publication: '*Epigenetics*'
-publication_short: ''
-
-doi: ''
-
-abstract: ''
-
-# Summary. An optional shortened abstract.
-summary: ''
-
-tags: []
-
-# Display this page in a list of Featured pages?
-featured: false
-
-# Links
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-# Publication image
-# Add an image named `featured.jpg/png` to your page's folder then add a caption below.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
+hugoblox:
+  ids:
+    doi: "10.1080/15592294.2022.2039850"
+links:
+- name: URL
+  url: https://pubmed.ncbi.nlm.nih.gov/35188871/
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

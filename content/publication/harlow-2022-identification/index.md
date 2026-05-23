@@ -1,11 +1,6 @@
 ---
 title: Identification and single-base gene-editing functional validation of a cis-EPO
-  variant as a genetic predictor for EPO-increasing therapies
-
-# Authors
-# A YAML list of author names
-# If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
-# write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
+  variant as a genetic predictor for EPO-increasing therapies.
 authors:
 - Charli E Harlow
 - Josan Gandawijaya
@@ -17,66 +12,38 @@ authors:
 - Hampton L Leonard
 - Amy S Etheridge
 - Federico Innocenti
-- ' others'
-
-# Author notes (such as 'Equal Contribution')
-# A YAML list of notes for each author in the above `authors` list
-author_notes: []
-
+- Robin N Beaumont
+- Jessica Tyrrell
+- Mike A Nalls
+- Eleanor M Simonsick
+- Pranav S Garimella
+- Eric J Shiroma
+- Niek Verweij
+- Peter van der Meer
+- Ron T Gansevoort
+- Harold Snieder
+- Paul J Gallins
+- Dereje D Jima
+- Fred Wright
+- Yi-Hui Zhou
+- Luigi Ferrucci
+- Stefania Bandinelli
+- Dena G Hernandez
+- Pim van der Harst
+- Vickas V Patel
+- Dawn M Waterworth
+- Audrey Y Chu
+- Asami Oguro-Ando
+- Timothy M Frayling
 date: '2022-01-01'
-
-# Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2024-12-31T05:56:00.926573Z'
-
-# Publication type.
-# A single CSL publication type but formatted as a YAML list (for Hugo requirements).
+publishDate: '2026-05-23T11:42:49.415083Z'
 publication_types:
 - article-journal
-
-# Publication name and optional abbreviated publication name.
-publication: '*The American Journal of Human Genetics*'
-publication_short: ''
-
-doi: ''
-
-abstract: ''
-
-# Summary. An optional shortened abstract.
-summary: 'Reports identification and single-base gene-editing validation of a cis-EPO variant relevant to genetic prediction of EPO-increasing therapies.'
-
-tags: []
-
-# Display this page in a list of Featured pages?
-featured: false
-
-# Links
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-# Publication image
-# Add an image named `featured.jpg/png` to your page's folder then add a caption below.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
+publication: '*American journal of human genetics*'
+hugoblox:
+  ids:
+    doi: "10.1016/j.ajhg.2022.08.004"
+links:
+- name: URL
+  url: https://pubmed.ncbi.nlm.nih.gov/36055212/
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

@@ -1,13 +1,8 @@
 ---
 title: 'DNA methylation and body mass index from birth to adolescence: meta-analyses
-  of epigenome-wide association studies'
-
-# Authors
-# A YAML list of author names
-# If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
-# write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
+  of epigenome-wide association studies.'
 authors:
-- Florianne OL Vehmeijer
+- Florianne O L Vehmeijer
 - Leanne K Küpers
 - Gemma C Sharp
 - Lucas A Salas
@@ -17,66 +12,90 @@ authors:
 - Sarah Reese
 - Cancan Qi
 - Olena Gruzieva
-- ' others'
-
-# Author notes (such as 'Equal Contribution')
-# A YAML list of notes for each author in the above `authors` list
-author_notes: []
-
+- Christian Page
+- Faisal I Rezwan
+- Philip E Melton
+- Ellen Nohr
+- Geòrgia Escaramís
+- Peter Rzehak
+- Anni Heiskala
+- Tong Gong
+- Samuli T Tuominen
+- Lu Gao
+- Jason P Ross
+- Anne P Starling
+- John W Holloway
+- Paul Yousefi
+- Gunn Marit Aasvang
+- Lawrence J Beilin
+- Anna Bergström
+- Elisabeth Binder
+- Leda Chatzi
+- Eva Corpeleijn
+- Darina Czamara
+- Brenda Eskenazi
+- Susan Ewart
+- Natalia Ferre
+- Veit Grote
+- Dariusz Gruszfeld
+- Siri E Håberg
+- Cathrine Hoyo
+- Karen Huen
+- Robert Karlsson
+- Inger Kull
+- Jean-Paul Langhendries
+- Johanna Lepeule
+- Maria C Magnus
+- Rachel L Maguire
+- Peter L Molloy
+- Claire Monnereau
+- Trevor A Mori
+- Emily Oken
+- Katri Räikkönen
+- Sheryl Rifas-Shiman
+- Carlos Ruiz-Arenas
+- Sylvain Sebert
+- Vilhelmina Ullemar
+- Elvira Verduci
+- Judith M Vonk
+- Cheng-Jian Xu
+- Ivana V Yang
+- Hongmei Zhang
+- Weiming Zhang
+- Wilfried Karmaus
+- Dana Dabelea
+- Beverly S Muhlhausler
+- Carrie V Breton
+- Jari Lahti
+- Catarina Almqvist
+- Marjo-Riitta Jarvelin
+- Berthold Koletzko
+- Martine Vrijheid
+- Thorkild I A Sørensen
+- Rae-Chi Huang
+- Syed Hasan Arshad
+- Wenche Nystad
+- Erik Melén
+- Gerard H Koppelman
+- Stephanie J London
+- Nina Holland
+- Mariona Bustamante
+- Susan K Murphy
+- Marie-France Hivert
+- Andrea Baccarelli
+- Caroline L Relton
+- Harold Snieder
+- Vincent W V Jaddoe
+- Janine F Felix
 date: '2020-01-01'
-
-# Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2024-12-31T05:56:00.870974Z'
-
-# Publication type.
-# A single CSL publication type but formatted as a YAML list (for Hugo requirements).
+publishDate: '2026-05-23T11:42:49.430831Z'
 publication_types:
 - article-journal
-
-# Publication name and optional abbreviated publication name.
 publication: '*Genome medicine*'
-publication_short: ''
-
-doi: ''
-
-abstract: ''
-
-# Summary. An optional shortened abstract.
-summary: ''
-
-tags: []
-
-# Display this page in a list of Featured pages?
-featured: false
-
-# Links
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-# Publication image
-# Add an image named `featured.jpg/png` to your page's folder then add a caption below.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
+hugoblox:
+  ids:
+    doi: "10.1186/s13073-020-00810-w"
+links:
+- name: URL
+  url: https://pubmed.ncbi.nlm.nih.gov/33239103/
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.

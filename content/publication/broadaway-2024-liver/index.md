@@ -1,11 +1,6 @@
 ---
 title: Liver eQTL meta-analysis illuminates potential molecular mechanisms of cardiometabolic
-  traits
-
-# Authors
-# A YAML list of author names
-# If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
-# write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
+  traits.
 authors:
 - K Alaine Broadaway
 - Sarah M Brotman
@@ -16,67 +11,19 @@ authors:
 - Fred Wright
 - Paul Gallins
 - Dereje Jima
-- Yi-hui Zhou
-- ' others'
-
-# Author notes (such as 'Equal Contribution')
-# A YAML list of notes for each author in the above `authors` list
-author_notes: []
-
+- Yi-Hui Zhou
+- Michael I Love
+- Federico Innocenti
+- Karen L Mohlke
 date: '2024-01-01'
-
-# Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2024-12-31T05:56:01.059747Z'
-
-# Publication type.
-# A single CSL publication type but formatted as a YAML list (for Hugo requirements).
+publishDate: '2026-05-23T11:42:49.367105Z'
 publication_types:
 - article-journal
-
-# Publication name and optional abbreviated publication name.
-publication: '*The American Journal of Human Genetics*'
-publication_short: ''
-
-doi: ''
-
-abstract: ''
-
-# Summary. An optional shortened abstract.
-summary: 'Uses liver eQTL meta-analysis to investigate molecular mechanisms underlying cardiometabolic traits.'
-
-tags: []
-
-# Display this page in a list of Featured pages?
-featured: false
-
-# Links
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-# Publication image
-# Add an image named `featured.jpg/png` to your page's folder then add a caption below.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects: ['internal-project']` links to `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects: []
+publication: '*American journal of human genetics*'
+hugoblox:
+  ids:
+    doi: "10.1016/j.ajhg.2024.07.017"
+links:
+- name: URL
+  url: https://pubmed.ncbi.nlm.nih.gov/39173627/
 ---
-
-Add the **full text** or **supplementary notes** for the publication here using Markdown formatting.
