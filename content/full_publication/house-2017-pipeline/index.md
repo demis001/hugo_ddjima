@@ -37,7 +37,7 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'Presents a pipeline for high-throughput concentration-response modeling of gene expression data for toxicogenomics.'
 
 tags: []
 

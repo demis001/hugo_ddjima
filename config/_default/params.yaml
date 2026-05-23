@@ -19,7 +19,7 @@ marketing:
   analytics:
     google_analytics: ''
     baidu_tongji: ''
-    plausible: ''
+    plausible: 'ddjima.com'
     fathom: ''
     pirsch: ''
   verification:
@@ -83,4 +83,3 @@ publications:
   view: citation # Default view for publications
   citation_style: apa # Default citation style: apa or mla
   per_page: 10 # Items per page for publications
-

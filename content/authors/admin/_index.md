@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior Research Scholar
+role: Senior Research Scholar in Bioinformatics and Computational Biology
 
 # Organizations/Affiliations to display in Biography blox
 organizations:

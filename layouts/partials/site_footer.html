@@ -8,6 +8,10 @@
   </div>
 </footer>
 
+{{- with site.Params.marketing.analytics.plausible -}}
+<script defer data-domain="{{ . }}" src="https://plausible.io/js/script.js"></script>
+{{- end -}}
+
 {{- if .IsHome -}}
 <script type="application/ld+json">
 {
@@ -17,7 +21,7 @@
   "name": "Dereje Jima",
   "givenName": "Dereje",
   "familyName": "Jima",
-  "jobTitle": "Senior Research Scholar",
+  "jobTitle": "Senior Research Scholar in Bioinformatics and Computational Biology",
   "url": "https://www.ddjima.com/",
   "image": "https://www.ddjima.com/author/dereje-jima/avatar.jpg",
   "affiliation": {
@@ -48,6 +52,84 @@
     "https://scholar.google.com/citations?user=sOPfFGAAAAAJ&hl=en&oi=ao",
     "https://orcid.org/0000-0002-7784-1612",
     "https://pubmed.ncbi.nlm.nih.gov/?term=Dereje+Jima&sort=date"
+  ]
+}
+</script>
+{{- end -}}
+
+{{- if eq .RelPermalink "/tools/" -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "@id": "https://www.ddjima.com/tools/#research-tools",
+  "name": "Research tools by Dereje Jima",
+  "description": "Research tools and web applications developed or supported by Dereje Jima.",
+  "url": "https://www.ddjima.com/tools/",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "WebApplication",
+        "@id": "https://www.humanicr.org/#software",
+        "name": "Human Imprintome",
+        "url": "https://www.humanicr.org/",
+        "applicationCategory": "Bioinformatics",
+        "operatingSystem": "Web",
+        "description": "A searchable browser for human imprint control regions, methylation datasets, gene and coordinate search, and CpG methylation visualization.",
+        "creator": {
+          "@id": "https://www.ddjima.com/#person"
+        },
+        "citation": {
+          "@type": "ScholarlyArticle",
+          "name": "Genomic map of candidate human imprint control regions: the imprintome",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35786392/",
+          "identifier": "doi:10.1080/15592294.2022.2091815"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "SoftwareSourceCode",
+        "@id": "https://github.com/demis001/temposeqcount#software",
+        "name": "temposeqcount",
+        "codeRepository": "https://github.com/demis001/temposeqcount",
+        "applicationCategory": "Bioinformatics",
+        "description": "An analysis pipeline for TempO-Seq/RASL-Seq projects that quantifies reads mapped to probes per well from demultiplexed FASTQ files and a probe/sample manifest.",
+        "creator": {
+          "@id": "https://www.ddjima.com/#person"
+        },
+        "citation": {
+          "@type": "ScholarlyArticle",
+          "name": "A Pipeline for High-Throughput Concentration Response Modeling of Gene Expression for Toxicogenomics",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29163636/",
+          "identifier": "doi:10.3389/fgene.2017.00168"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "WebApplication",
+        "@id": "https://www.ddjima.com/tools/#pathosphere-ecbc-pipeline",
+        "name": "Pathosphere.org / ECBC Pipeline",
+        "applicationCategory": "Bioinformatics",
+        "description": "A legacy web-based open-source informatics platform for pathogen detection and characterization from next-generation sequencing data.",
+        "creator": {
+          "@id": "https://www.ddjima.com/#person"
+        },
+        "citation": {
+          "@type": "ScholarlyArticle",
+          "name": "Pathosphere.org: pathogen detection and characterization through a web-based, open source informatics platform",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/26714571/",
+          "identifier": "doi:10.1186/s12859-015-0840-5"
+        }
+      }
+    }
   ]
 }
 </script>

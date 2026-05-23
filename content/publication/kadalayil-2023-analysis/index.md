@@ -42,7 +42,7 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'Analyzes DNA methylation at birth and in childhood to identify changes associated with childhood body size and adiposity-related traits.'
 
 tags: []
 

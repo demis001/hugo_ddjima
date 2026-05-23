@@ -42,7 +42,7 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'Uses liver eQTL meta-analysis to investigate molecular mechanisms underlying cardiometabolic traits.'
 
 tags: []
 

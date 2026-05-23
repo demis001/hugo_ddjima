@@ -37,7 +37,7 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'Presents an integrated genomic analysis resource for the human liver.'
 
 tags: []
 

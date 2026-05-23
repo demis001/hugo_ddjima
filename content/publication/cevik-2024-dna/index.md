@@ -40,7 +40,7 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'Examines DNA methylation at imprint control regions in relation to Alzheimer disease across non-Hispanic Black and non-Hispanic White participants.'
 
 tags: []
 

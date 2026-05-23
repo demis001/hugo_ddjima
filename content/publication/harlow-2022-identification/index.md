@@ -42,7 +42,7 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'Reports identification and single-base gene-editing validation of a cis-EPO variant relevant to genetic prediction of EPO-increasing therapies.'
 
 tags: []
 

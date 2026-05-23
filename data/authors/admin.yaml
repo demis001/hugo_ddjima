@@ -7,9 +7,9 @@ name:
   family: Jima
 status:
   icon: "☕️"
-role: Senior Research Scholar
+role: Senior Research Scholar in Bioinformatics and Computational Biology
 bio: |
-  Dereje Jima is a Senior Research Scholar at North Carolina State University with expertise in bioinformatics and computational biology. His work focuses on integrating and analyzing high-throughput genomic, epigenomic, and transcriptomic data to understand complex biological phenotypes, especially in the context of human disease and environmental health.
+  Dereje Jima is a Senior Research Scholar in bioinformatics and computational biology at North Carolina State University. His work with the Center for Human Health and the Environment focuses on genomics, epigenomics, transcriptomics, multi-omics integration, environmental health, and reproducible computational workflows for collaborative biomedical research.
 affiliations:
   - name: North Carolina State University
     url: https://www.ncsu.edu/

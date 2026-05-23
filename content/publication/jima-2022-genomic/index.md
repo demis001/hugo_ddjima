@@ -41,7 +41,7 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'Maps candidate human imprint control regions and presents the Human Imprintome resource for imprinting and epigenomic research.'
 
 tags: []
 

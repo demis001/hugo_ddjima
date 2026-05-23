@@ -41,7 +41,7 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'Investigates associations between child appetitive traits and DNA methylation using epigenome-wide analysis.'
 
 tags: []
 

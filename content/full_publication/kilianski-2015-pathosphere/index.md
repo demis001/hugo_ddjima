@@ -42,7 +42,7 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'Describes Pathosphere.org, a web-based open-source informatics platform for pathogen detection and characterization.'
 
 tags: []
 

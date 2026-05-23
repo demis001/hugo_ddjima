@@ -41,7 +41,7 @@ doi: ''
 abstract: ''
 
 # Summary. An optional shortened abstract.
-summary: ''
+summary: 'Describes creation and validation of an Infinium DNA methylation array designed for the human imprintome.'
 
 tags: []
 
