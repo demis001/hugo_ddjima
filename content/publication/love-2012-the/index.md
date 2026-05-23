@@ -43,4 +43,10 @@ hugoblox:
 links:
 - name: URL
   url: https://pubmed.ncbi.nlm.nih.gov/23143597/
+featured: true
+summary: 'Defines the mutational landscape of Burkitt lymphoma and highlights recurrently altered genes.'
+image:
+  caption: 'Burkitt lymphoma genomic landscape.'
+  focal_point: Center
+  preview_only: false
 ---

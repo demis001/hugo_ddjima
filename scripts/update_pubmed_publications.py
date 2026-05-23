@@ -21,6 +21,10 @@ from pathlib import Path
 
 DEFAULT_QUERY = '("Jima DD"[Author] OR "Jima D"[Author] OR "Jima Dereje"[Author])'
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+CURATED_FEATURED_DOIS = {
+    "10.1080/15592294.2022.2091815",
+    "10.1038/ng.2468",
+}
 
 
 def fetch_url(url: str) -> bytes:
@@ -209,6 +213,24 @@ def normalize_hugoblox_doi(destination: Path) -> int:
     return changed
 
 
+def restore_curated_publications(destination: Path) -> int:
+    """Keep hand-curated homepage feature flags after Academic rewrites pages."""
+    changed = 0
+    for page in destination.glob("*/index.md"):
+        content = page.read_text(encoding="utf-8")
+        if not any(doi in content for doi in CURATED_FEATURED_DOIS):
+            continue
+
+        updated = re.sub(r"^featured:\s*false\s*$", "featured: true", content, flags=re.MULTILINE)
+        if updated == content and not re.search(r"^featured:\s*", content, flags=re.MULTILINE):
+            updated = updated.replace("\n---\n", "\nfeatured: true\n---\n", 1)
+
+        if updated != content:
+            page.write_text(updated, encoding="utf-8")
+            changed += 1
+    return changed
+
+
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Update publication pages from PubMed.")
     parser.add_argument("--query", default=DEFAULT_QUERY, help="PubMed query to fetch.")
@@ -232,6 +254,9 @@ def main() -> int:
         changed = normalize_hugoblox_doi(destination)
         if changed:
             print(f"Normalized DOI metadata in {changed} imported publication pages")
+        restored = restore_curated_publications(destination)
+        if restored:
+            print(f"Restored featured metadata in {restored} curated publication pages")
     return 0
 
 
