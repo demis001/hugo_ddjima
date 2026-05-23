@@ -1,4 +1,4 @@
-import bibtexparser
+import re
 
 # File paths
 input_path = 'cite_2025.bib'  # Replace with your input file path
