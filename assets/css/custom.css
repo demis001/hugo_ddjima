@@ -666,9 +666,19 @@ html.dark .research-tool-content p {
   padding: 0 !important;
 }
 
+.research-themes-section > div:not(.home-section-bg) {
+  max-width: 1280px;
+  width: min(1280px, calc(100vw - 3rem));
+}
+
+.research-themes-section .prose {
+  max-width: 1280px !important;
+  width: 100%;
+}
+
 .research-themes-grid {
   display: grid;
-  gap: 1rem;
+  gap: 1.25rem;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   margin-top: 1.25rem;
 }
