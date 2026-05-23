@@ -3,6 +3,9 @@
 <div class="max-w-4xl mx-auto px-6 my-10">
   <header class="max-w-prose mx-auto text-center">
     <h1 class="text-4xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-100">Full Publications</h1>
+    <p class="mt-4 text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+      This list is generated from the filtered PubMed import and sorted by publication year, newest first.
+    </p>
   </header>
 
   {{ $allPublications := where site.RegularPages "Section" "publication" }}

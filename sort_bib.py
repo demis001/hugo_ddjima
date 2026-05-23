@@ -1,5 +1,9 @@
 import re
 
+# Legacy manual BibTeX sorter. The normal publication update path is now:
+#   ./process_bib_file.sh
+# which fetches filtered PubMed records and imports them into Hugo Blox.
+
 # File paths
 input_path = 'cite_2025.bib'  # Replace with your input file path
 output_path = 'cite_2025_sorted.bib'  # Replace with your desired output file path

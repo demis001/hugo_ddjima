@@ -1,5 +1,5 @@
 [build]
-  command = "npm install && PATH=$PWD/node_modules/.bin:$PATH hugo --gc --minify -b https://www.ddjima.com/ && npx pagefind --site public"
+  command = "npm install && PATH=$PWD/node_modules/.bin:$PATH hugo --cleanDestinationDir --gc --minify -b https://www.ddjima.com/ && npx pagefind --site public"
   publish = "public"
 
 [build.environment]
@@ -14,10 +14,10 @@
   HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "npm install && PATH=$PWD/node_modules/.bin:$PATH hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL && npx pagefind --site public"
+  command = "npm install && PATH=$PWD/node_modules/.bin:$PATH hugo --cleanDestinationDir --gc --minify --buildFuture -b $DEPLOY_PRIME_URL && npx pagefind --site public"
 
 [context.branch-deploy]
-  command = "npm install && PATH=$PWD/node_modules/.bin:$PATH hugo --gc --minify -b $DEPLOY_PRIME_URL && npx pagefind --site public"
+  command = "npm install && PATH=$PWD/node_modules/.bin:$PATH hugo --cleanDestinationDir --gc --minify -b $DEPLOY_PRIME_URL && npx pagefind --site public"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
