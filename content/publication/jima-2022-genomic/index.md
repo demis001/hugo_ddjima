@@ -14,7 +14,7 @@ authors:
 - Randy L Jirtle
 - Cathrine Hoyo
 date: '2022-01-01'
-publishDate: '2026-05-23T11:42:49.404235Z'
+publishDate: '2026-05-23T12:15:20.060219Z'
 publication_types:
 - article-journal
 publication: '*Epigenetics*'
@@ -25,9 +25,4 @@ links:
 - name: URL
   url: https://pubmed.ncbi.nlm.nih.gov/35786392/
 featured: true
-summary: 'Maps candidate human imprint control regions and introduces the human imprintome resource.'
-image:
-  caption: 'Candidate human imprint control regions across the genome.'
-  focal_point: Center
-  preview_only: false
 ---

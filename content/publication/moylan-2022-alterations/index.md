@@ -16,7 +16,7 @@ authors:
 - Manal F Abdelmalek
 - Cathrine Hoyo
 date: '2022-01-01'
-publishDate: '2026-05-23T11:42:49.408587Z'
+publishDate: '2026-05-23T12:15:20.064751Z'
 publication_types:
 - article-journal
 publication: '*Epigenetics*'

@@ -17,7 +17,7 @@ authors:
 - Susan K Murphy
 - Cathrine Hoyo
 date: '2021-01-01'
-publishDate: '2026-05-23T11:42:49.426435Z'
+publishDate: '2026-05-23T12:15:20.078716Z'
 publication_types:
 - article-journal
 publication: '*Infectious agents and cancer*'

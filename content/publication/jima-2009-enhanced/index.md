@@ -11,7 +11,7 @@ authors:
 - Nikolaus S Trede
 - Jeffrey A Yoder
 date: '2009-01-01'
-publishDate: '2026-05-23T11:42:49.586730Z'
+publishDate: '2026-05-23T12:15:20.171113Z'
 publication_types:
 - article-journal
 publication: '*Molecular immunology*'

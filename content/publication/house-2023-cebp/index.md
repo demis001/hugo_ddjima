@@ -9,7 +9,7 @@ authors:
 - Robert C Smart
 - Jonathan R Hall
 date: '2023-01-01'
-publishDate: '2026-05-23T11:42:49.399872Z'
+publishDate: '2026-05-23T12:15:20.056170Z'
 publication_types:
 - article-journal
 publication: '*Innate immunity*'

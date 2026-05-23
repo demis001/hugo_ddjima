@@ -13,7 +13,7 @@ authors:
 - Allen L Richards
 - Jun Hang
 date: '2015-01-01'
-publishDate: '2026-05-23T11:42:49.529325Z'
+publishDate: '2026-05-23T12:15:20.150686Z'
 publication_types:
 - article-journal
 publication: '*Genome announcements*'

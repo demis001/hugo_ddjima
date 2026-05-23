@@ -19,8 +19,14 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
-DEFAULT_QUERY = '"Dereje Jima"[Author]'
+DEFAULT_QUERY = (
+    '"Jima DD"[Author] OR "Dereje Jima"[Full Author Name] '
+    'OR "Dereje D Jima"[Full Author Name] OR "Jima Dereje"[Full Author Name]'
+)
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
+OWNER_LAST_NAME = "jima"
+OWNER_FORENAMES = {"dereje", "dereje d", "dereje d."}
+OWNER_INITIALS = {"dd"}
 CURATED_FEATURED_DOIS = {
     "10.1080/15592294.2022.2091815",
     "10.1038/ng.2468",
@@ -85,6 +91,23 @@ def first_text(article: ET.Element, paths: list[str]) -> str:
         if value:
             return value
     return ""
+
+
+def is_owner_author(author: ET.Element) -> bool:
+    last = text(author.find("LastName")).lower()
+    fore = text(author.find("ForeName")).lower()
+    initials = text(author.find("Initials")).lower()
+    if last != OWNER_LAST_NAME:
+        return False
+    return fore in OWNER_FORENAMES or initials in OWNER_INITIALS
+
+
+def filter_owner_articles(root: ET.Element) -> ET.Element:
+    filtered = ET.Element(root.tag)
+    for article in root.findall(".//PubmedArticle"):
+        if any(is_owner_author(author) for author in article.findall(".//AuthorList/Author")):
+            filtered.append(article)
+    return filtered
 
 
 def publication_year(article: ET.Element) -> str:
@@ -238,6 +261,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--output", default="cite_pubmed_sorted.bib", help="Output BibTeX path.")
     parser.add_argument("--destination", default="content/publication", help="Academic import destination.")
     parser.add_argument("--skip-import", action="store_true", help="Only write the BibTeX file.")
+    parser.add_argument(
+        "--allow-empty",
+        action="store_true",
+        help="Allow overwriting the BibTeX file and importing even when no matching records are found.",
+    )
     return parser.parse_args()
 
 
@@ -247,6 +275,11 @@ def main() -> int:
     destination = Path(args.destination)
     pmids = search_pmids(args.query, args.retmax)
     root = fetch_pubmed_xml(pmids)
+    root = filter_owner_articles(root)
+    if not root.findall(".//PubmedArticle") and not args.allow_empty:
+        print("Found 0 matching PubMed records after author filtering; leaving existing files unchanged.")
+        print("Use --allow-empty if you really want to write an empty BibTeX file.")
+        return 1
     count = write_bibtex(root, output)
     print(f"Wrote {count} PubMed records to {output}")
     if not args.skip_import:

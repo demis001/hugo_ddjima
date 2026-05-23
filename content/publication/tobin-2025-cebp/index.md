@@ -9,7 +9,7 @@ authors:
 - Sophia C Gray
 - Jonathan R Hall
 date: '2025-01-01'
-publishDate: '2026-05-23T11:42:49.362456Z'
+publishDate: '2026-05-23T12:15:20.020376Z'
 publication_types:
 - article-journal
 publication: '*Frontiers in cell death*'
