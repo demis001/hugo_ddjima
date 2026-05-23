@@ -19,7 +19,7 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 
-DEFAULT_QUERY = '("Jima DD"[Author] OR "Jima D"[Author] OR "Jima Dereje"[Author])'
+DEFAULT_QUERY = '"Dereje Jima"[Author]'
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 CURATED_FEATURED_DOIS = {
     "10.1080/15592294.2022.2091815",
