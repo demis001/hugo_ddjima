@@ -4,6 +4,8 @@ title: "Dereje Jima"
 logo: "/media/logo.png"
 date: 2024-12-17
 type: landing
+description: "Dereje Jima is a Senior Research Scholar in bioinformatics and computational biology at North Carolina State University, working on genomics, epigenomics, transcriptomics, environmental health, reproducible workflows, and collaborative data science."
+summary: "Dereje Jima is a Senior Research Scholar in bioinformatics and computational biology at North Carolina State University, working on genomics, epigenomics, transcriptomics, environmental health, reproducible workflows, and collaborative data science."
 
 design:
   # Default section spacing

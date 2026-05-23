@@ -8,3 +8,47 @@
   </div>
 </footer>
 
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://www.ddjima.com/#person",
+  "name": "Dereje Jima",
+  "givenName": "Dereje",
+  "familyName": "Jima",
+  "jobTitle": "Senior Research Scholar",
+  "url": "https://www.ddjima.com/",
+  "image": "https://www.ddjima.com/author/dereje-jima/avatar.jpg",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "North Carolina State University",
+    "url": "https://www.ncsu.edu/"
+  },
+  "worksFor": {
+    "@type": "CollegeOrUniversity",
+    "name": "North Carolina State University",
+    "url": "https://www.ncsu.edu/"
+  },
+  "knowsAbout": [
+    "Bioinformatics",
+    "Computational biology",
+    "Genomics",
+    "Epigenomics",
+    "Transcriptomics",
+    "Multi-omics data integration",
+    "Environmental health",
+    "Toxicogenomics",
+    "Genomic imprinting",
+    "Reproducible research workflows"
+  ],
+  "sameAs": [
+    "https://github.com/demis001",
+    "https://www.linkedin.com/in/dereje-jima-msc-phd-5395ab8",
+    "https://scholar.google.com/citations?user=sOPfFGAAAAAJ&hl=en&oi=ao",
+    "https://orcid.org/0000-0002-7784-1612",
+    "https://pubmed.ncbi.nlm.nih.gov/?term=Dereje+Jima&sort=date"
+  ]
+}
+</script>
+{{- end -}}

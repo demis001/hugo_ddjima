@@ -1,0 +1,33 @@
+# Dereje Jima
+
+Website: https://www.ddjima.com/
+
+Dereje Jima is a Senior Research Scholar in bioinformatics and computational biology at North Carolina State University. His work focuses on high-throughput genomic, epigenomic, transcriptomic, and multi-omics data analysis, with applications in environmental health, human disease, toxicogenomics, regulatory genomics, and reproducible research workflows.
+
+## Important Pages
+
+- Home: https://www.ddjima.com/
+- Full Publications: https://www.ddjima.com/full_publication/
+- Publications: https://www.ddjima.com/publication/
+- Tools: https://www.ddjima.com/tools/
+- News: https://www.ddjima.com/news/
+- Contact: https://www.ddjima.com/contact/
+
+## Research Themes
+
+- Bioinformatics and computational biology
+- Genomics, epigenomics, transcriptomics, and multi-omics integration
+- Environmental health and toxicogenomics
+- Genomic imprinting and regulatory genomics
+- Reproducible analysis workflows
+- Collaborative research support and trainee mentoring
+
+## Research Tools
+
+- Human Imprintome: https://www.humanicr.org/
+- temposeqcount: https://github.com/demis001/temposeqcount
+- Pathosphere.org / ECBC Pipeline publication: https://pubmed.ncbi.nlm.nih.gov/26714571/
+
+## Citation and Discovery
+
+Use the publication pages and PubMed-linked records as the preferred sources for publication metadata. The site sitemap is available at https://www.ddjima.com/sitemap.xml.

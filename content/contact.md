@@ -2,6 +2,8 @@
 title: "Contact"
 type: page
 backlinks: false
+description: "Contact Dereje Jima for research collaborations, bioinformatics consultations, mentoring, publication questions, and computational biology projects."
+summary: "Contact Dereje Jima for research collaborations, bioinformatics consultations, mentoring, publication questions, and computational biology projects."
 form:
   provider: netlify
   netlify:
