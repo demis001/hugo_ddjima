@@ -47,6 +47,10 @@ footer:
   block: minimal
   copyright:
     notice: '© {year} Dereje Jima'
+  visitor_counter:
+    enable: true
+    image_url: 'https://hits.sh/www.ddjima.com.svg?style=flat-square&label=Visitors&color=0f766e&labelColor=526070'
+    dashboard_url: 'https://hits.sh/www.ddjima.com/'
   license:
     enable: false
     allow_derivatives: false

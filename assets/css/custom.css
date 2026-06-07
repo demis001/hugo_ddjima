@@ -303,6 +303,21 @@ a[class*="rounded"]:hover {
   text-decoration: underline;
 }
 
+.visitor-counter {
+  display: flex;
+  justify-content: center;
+  margin: 0.65rem 0 0;
+}
+
+.visitor-counter a {
+  display: inline-flex;
+}
+
+.visitor-counter img {
+  height: 20px;
+  width: auto;
+}
+
 .publication-number {
   color: var(--site-gold);
   font-weight: 700;

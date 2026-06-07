@@ -5,6 +5,15 @@
       Licensed under 
       <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.
     </p>
+    {{- with site.Params.footer.visitor_counter }}
+      {{- if and .enable hugo.IsProduction (eq site.BaseURL "https://www.ddjima.com/") }}
+    <p class="visitor-counter">
+      <a href="{{ .dashboard_url }}" target="_blank" rel="noopener" aria-label="View website visitor statistics">
+        <img src="{{ .image_url | safeURL }}" alt="Website visitor count" width="92" height="20">
+      </a>
+    </p>
+      {{- end }}
+    {{- end }}
   </div>
 </footer>
 
